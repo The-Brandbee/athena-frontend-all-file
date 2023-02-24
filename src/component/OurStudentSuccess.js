@@ -103,8 +103,10 @@ class OurStudentSuccess extends React.Component {
                 </section>
                 <section className="The-proud-accomplishments-frame The-proud-accomplishments-framesec new">
                     <div className='container'>
-                        <div className="The-proud-accomplishments-frame-middle">
-
+                        <div className="The-proud-accomplishments-frame-middle AAMISH-A-BEG">
+                            <div className="The-proud-accomplishments-frame-left">
+                                <img src={SCHOLARSHIP2} alt="" />
+                            </div>
                             <div className="The-proud-accomplishments-frame-right">
                                 <div className="The-proud-accomplishments-frame-right-top-frame">
                                     <div className="The-proud-accomplishments-frame-right-top-frame-left">
@@ -124,9 +126,7 @@ class OurStudentSuccess extends React.Component {
                                     </p>
                                 </div>
                             </div>
-                            <div className="The-proud-accomplishments-frame-left">
-                                <img src={SCHOLARSHIP2} alt="" />
-                            </div>
+
                         </div>
                     </div>
                 </section>

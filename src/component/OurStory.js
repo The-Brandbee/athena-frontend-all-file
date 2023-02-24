@@ -204,7 +204,19 @@ class OurStory extends React.Component {
                                 </div>
                             </div>
                         </section>
-                        <section className="project-profile-development-frame our-story-2nd">
+                        <section className="project-profile-development-frame our-story-2nd RAHUL-SUBRAMANIAM">
+
+                            <div className="project-profile-development-frame-left">
+                                <div className="project-profile-development-frame-left-frame">
+                                    <img src={ProfileOne5} />
+
+                                </div>
+                                <div className="project-profile-development-frame-right-frame bottomspacw">
+
+                                    <img src={ProfileOne} />
+                                    <img src={ProfileOne2} />
+                                </div>
+                            </div>
 
                             <div className="project-profile-development-frame-right">
                                 <div className="project-profile-development-frame-righttwo">
@@ -216,17 +228,6 @@ class OurStory extends React.Component {
                                         </p>
                                     </div>
 
-                                </div>
-                            </div>
-                            <div className="project-profile-development-frame-left">
-                                <div className="project-profile-development-frame-left-frame">
-                                    <img src={ProfileOne5} />
-
-                                </div>
-                                <div className="project-profile-development-frame-right-frame bottomspacw">
-
-                                    <img src={ProfileOne} />
-                                    <img src={ProfileOne2} />
                                 </div>
                             </div>
                         </section>

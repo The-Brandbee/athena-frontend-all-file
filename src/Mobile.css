@@ -61,11 +61,15 @@
 
     .our-approach-page .our-approach-page-inner-frame {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
+    }
+
+    .our-approach-page .our-approach-page-inner-frame:last-child {
+        margin-bottom: 30px;
     }
 
     .our-approach-page .our-approach-page-inner-frame img {
-        width: 60px;
+        width: 120px;
     }
 
     .our-approach-page .our-approach-page-inner-frame h4 {
@@ -180,13 +184,17 @@
     }
 
     .The-proud-accomplishments-frame {
-        padding: 50px 0px;
+        padding: 20px 0px;
         margin-bottom: 0px;
     }
 
     .The-proud-accomplishments-frame-left img {
         position: inherit;
         top: 0px;
+    }
+
+    .testimonials-all-page-align-middle-right-heading-new h4 {
+        margin-top: 30px;
     }
 
     .testimonials-all-page-align {
@@ -258,7 +266,7 @@
     }
 
     .louder-than-our-words-why-middle-section-left.why-us-new-add {
-        width: 47%;
+        width: 46%;
         margin-right: 10px;
     }
 
@@ -735,7 +743,19 @@
     }
 
     .track-your-college-right-img img {
-        margin-top: 40px;
+        margin-top: 0px;
+    }
+
+    .heading-contact-middle.new-add h2 {
+        margin-bottom: 30px;
+    }
+
+    .our-team-middle-section .heading-contact-middle p {
+        width: 100%;
+    }
+
+    .Autobiography-of-a-Student-frame.new-add {
+        margin-top: 30px;
     }
 
     .why-choese-us-home-page-heading-middle {
@@ -1096,6 +1116,10 @@
     .marquee-section-inner-section-left {
         width: 3%;
         margin-right: 15px;
+    }
+
+    .in-the-news-mar .marquee-section-inner-section-left {
+        width: 20%;
     }
 
     .home-page-logo-media-frame ul li {
@@ -1525,6 +1549,14 @@
     .presscoverage-main-frame-middle.MEDIA-PAGE .track-your-college-left-link {
         margin-top: 0px;
     }
+
+    .bm-menu-wrap .bm-cross-button {
+
+        width: 15% !important;
+        height: 100% !important;
+
+    }
+
 }
 
 @media all and (min-width:1600px) and (max-width:2400px) {

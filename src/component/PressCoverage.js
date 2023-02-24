@@ -70,7 +70,7 @@ class PressCoverage extends React.Component {
                             <h3>PRESS COVERAGE</h3>
                             <h2>Athena's Media Footprint</h2>
                         </div>
-                        <Marquee speed="80" direction="left">
+                        <Marquee className="in-the-news-mar" speed="80" direction="left">
                             <div className='marquee-section new-press'>
                                 <div className='marquee-section-inner-section-left'>
                                     <div className='marquee-section-inner-section-botton-img'>

@@ -960,6 +960,14 @@ header .col-md-10 {
     --gradient-color: rgba (255, 255, 255, 0), rgba(255, 255, 255, 0) !important;
 }
 
+.marquee-container .marquee {
+    --duration: 59.375s !important;
+}
+
+.track-your-college.home-page-new.man {
+    padding-top: 0px;
+}
+
 .marquee-section-inner-section-left:last-child {
     margin-right: 0%;
 }
@@ -5378,14 +5386,11 @@ header {
     cursor: pointer;
     border: none;
     border-radius: 55px;
-    -webkit-border-radius: 55px;
-    -moz-border-radius: 55px;
-    -ms-border-radius: 55px;
-    -o-border-radius: 55px;
     background: rgb(8 49 58);
     width: 40px;
     height: 40px;
     z-index: 99999999999999999999999999;
+    text-align: center;
 }
 
 .fancybox__container {
@@ -6515,4 +6520,16 @@ header .col-md-2.fixmenu a:hover {
 
 .Testimonials-home-middle-right.track-your-college.mobile.none {
     display: none;
+}
+
+.what-we-do-section-page.about-athena-new {
+    flex-direction: row-reverse;
+}
+
+.project-profile-development-frame.our-story-2nd.RAHUL-SUBRAMANIAM {
+    flex-direction: row-reverse;
+}
+
+.The-proud-accomplishments-frame-middle.AAMISH-A-BEG {
+    flex-direction: row-reverse;
 }

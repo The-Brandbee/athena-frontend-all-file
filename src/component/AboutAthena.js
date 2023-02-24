@@ -106,9 +106,7 @@ class AboutAthena extends React.Component {
 
 
                 <section className='what-we-do-section-page about-athena-new'>
-                    <div className='what-we-do-section-page-left'>
-                        <img src={About} />
-                    </div>
+
                     <div className='what-we-do-section-page-right'>
                         <div className='what-we-do-section-page-right-middle'>
                             <div className='why-choese-us-home-page-heading'>
@@ -140,6 +138,9 @@ class AboutAthena extends React.Component {
                             </ul>
 
                         </div>
+                    </div>
+                    <div className='what-we-do-section-page-left'>
+                        <img src={About} />
                     </div>
                 </section>
                 <section className="Our-Mentors-frame-our-story-frame">

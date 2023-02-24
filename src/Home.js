@@ -652,7 +652,7 @@ export default class Home extends Component {
 					</div>
 				</section >
 
-				<section className='track-your-college  home-page-new'>
+				<section className='track-your-college  home-page-new man'>
 					<div className="container">
 						<div className='row'>
 							<div className='col-md-5'>
