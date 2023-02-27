@@ -6,8 +6,9 @@ import Cal from '../img/cla-b.png';
 import ArrowOne from '../img/arrow-1.png';
 import Arrowtwo from '../img/arrow-2.png';
 import Search from '../img/search.png';
-
+import Pagination from '../component/Pagination';
 import MobileTop from '../img/mobilebanner/mobile-blog.jpg';
+
 
 class BlogMain extends React.Component {
     componentDidMount() {
@@ -130,25 +131,17 @@ class BlogMain extends React.Component {
                                         <h4>Recent posts</h4>
                                         <ul>
                                             <li>00-00-0000</li>
-                                            <li>Name of the blog goes here</li>
+                                            <li><Link to="">Name of the blog goes here</Link></li>
                                             <li>00-00-0000</li>
-                                            <li>Name of the blog goes here</li>
+                                            <li><Link to="">Name of the blog goes here</Link></li>
                                             <li>00-00-0000</li>
-                                            <li>Name of the blog goes here</li>
+                                            <li><Link to="">Name of the blog goes here</Link></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-12">
-                                <div className="bread-crma-last-frame">
-                                    <ul>
-                                        <li className="active">1</li>
-                                        <li>2</li>
-                                        <li>3</li>
-                                        <li>4</li>
-                                        <li>5</li>
-                                    </ul>
-                                </div>
+                                <Pagination />
                             </div>
                         </div>
                     </div>
@@ -174,4 +167,4 @@ class BlogMain extends React.Component {
         );
     }
 }
-export default BlogMain;  
+export default BlogMain;
