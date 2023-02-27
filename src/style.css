@@ -2428,7 +2428,7 @@ header .sticky .header-logo img {
     color: #107869;
     font-size: 18px;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .our-approach-page .our-approach-page-inner-frame img {
@@ -4017,7 +4017,7 @@ header .sticky .header-logo img {
 .Companies-where-Athena-frame-logo-frame {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 70px;
 }
@@ -4038,6 +4038,35 @@ header .sticky .header-logo img {
 .Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini {
     margin-bottom: 20px;
     width: 18%;
+    margin-right: 2.5%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(5) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(10) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(15) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(20) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(25) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(30) {
+    margin-right: 0%;
+}
+
+.Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini:nth-child(35) {
+    margin-right: 0%;
 }
 
 .Companies-where-Athena-frame-alumini.track-your-college.add .logo-frame-image-our-alumini img {
@@ -5089,7 +5118,7 @@ header .sticky .header-logo img {
 
 .presscoverage-main-frame-middle-right img {
     width: 100%;
-    height: 100%;
+
 }
 
 .presscoverage-main-frame-middle-left-heading h3 {
@@ -6531,5 +6560,14 @@ header .col-md-2.fixmenu a:hover {
 }
 
 .The-proud-accomplishments-frame-middle.AAMISH-A-BEG {
+    flex-direction: row-reverse;
+}
+
+.row.landscape-of-India {
+    flex-direction: row-reverse;
+    display: flex;
+}
+
+.project-profile-development-frame.profile-development-page {
     flex-direction: row-reverse;
 }

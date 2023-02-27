@@ -39,9 +39,16 @@ export default class RecentHome extends Component {
     };
     render() {
         return (
-            <div>
+            <div className='recent-home-number-main-mainframe'>
                 <Carousel responsive={this.responsive}>
-
+                    <div className='recent-home-number-main'>
+                        <div className='number-recent-home'>
+                            <h2>03</h2>
+                        </div>
+                        <div className='number-recent-home-img'>
+                            <img src={acceptances6} alt="" />
+                        </div>
+                    </div>
                     <div className='recent-home-number-main'>
                         <div className='number-recent-home'>
                             <h2>07</h2>
@@ -67,14 +74,7 @@ export default class RecentHome extends Component {
                             <img src={acceptances10} alt="" />
                         </div>
                     </div>
-                    <div className='recent-home-number-main'>
-                        <div className='number-recent-home'>
-                            <h2>03</h2>
-                        </div>
-                        <div className='number-recent-home-img'>
-                            <img src={acceptances6} alt="" />
-                        </div>
-                    </div>
+
 
                     <div className='recent-home-number-main'>
                         <div className='number-recent-home'>

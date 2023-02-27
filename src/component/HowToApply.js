@@ -294,7 +294,7 @@ class HowToApply extends React.Component {
                         </div>
                     </div>
                 </section>*/}
-                <section className="our-approach-page container our-approach-page container-new">
+                <section className="our-approach-page container our-approach-page container-new n">
                     <h2 className="text-center">Our Approach</h2>
                     <div className="our-approach-page-inner">
                         <div className="our-approach-page-inner-frame text-center">

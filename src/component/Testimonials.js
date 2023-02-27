@@ -85,11 +85,22 @@ class Testimonials extends React.Component {
                         <STUDENTTESTIMONIALS />
                     </div>
                 </section>
-                <section className='Testimonials-home-middle Parents-Testimonials-section'>
+                <section className='Testimonials-home-middle Parents-Testimonials-section testimonials-mainpage'>
+
+                    <div className='Testimonials-home-middle-right track-your-college mobile none'>
+                        <div className='track-your-college-left te-page'>
+                            <h3>Parents Testimonials</h3>
+                            <h2>Hear what our happy <br />parents have to say!</h2>
+                            <p>
+
+                                We take pride in how we support not only our students, but also their families. Hear about their experiences.  </p>
+
+                        </div>
+                    </div>
                     <div className='Testimonials-home-middle-left'>
                         <ParentsTestimonials />
                     </div>
-                    <div className='Testimonials-home-middle-right track-your-college'>
+                    <div className='Testimonials-home-middle-right track-your-college desktop'>
                         <div className='track-your-college-left te-page'>
                             <h3>Parents Testimonials</h3>
                             <h2>Hear what our happy <br />parents have to say!</h2>

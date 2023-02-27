@@ -98,6 +98,9 @@ class Minerva extends React.Component {
                                     <h2>We offer targeted Academies focused on <br />projects, research, and policy papers</h2>
 
                                 </div>
+                                <div className='track-your-college-right-img none mobile'>
+                                    <img src={AdmissionsNew} alt="" />
+                                </div>
                             </div>
                             <div className='col-md-7'>
                                 <div className='track-your-college-left'>
@@ -108,7 +111,7 @@ class Minerva extends React.Component {
                                 </div>
                             </div>
                             <div className='col-md-5'>
-                                <div className='track-your-college-right-img'>
+                                <div className='track-your-college-right-img desktp-m'>
                                     <img src={AdmissionsNew} alt="" />
                                 </div>
                             </div>

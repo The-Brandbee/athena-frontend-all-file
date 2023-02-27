@@ -124,7 +124,7 @@ export default class Home extends Component {
 					<title>  Athena Education  </title>
 				</Helmet>
 				<Slider />
-				<section className='recent-acceptance-home-frame'>
+				<section className='recent-acceptance-home-frame home-new'>
 					<div className="container">
 						<h2>Our recent acceptances</h2>
 						<RecentHome />
@@ -147,11 +147,11 @@ export default class Home extends Component {
 										<img src={Teamicon7} alt="" />
 									</div>
 									<div className='why-choese-us-home-page-heading-middle-left-img-2'>
-										<p>Served</p>
+										<p className='Served_home'>Served</p>
 										<h4>
 											<CountFour />
 										</h4>
-										<p> Students from <span>15 countries</span></p>
+										<p><span className='none'>Served</span> Students from <span>15 countries</span></p>
 									</div>
 								</div>
 								<div className='why-choese-us-home-page-heading-middle-left-img'>
@@ -332,7 +332,7 @@ export default class Home extends Component {
 							<h3>OUR RESULTS</h3>
 							<h2>Acceptances since 2015</h2>
 						</div>
-						<Marquee speed="80" direction="left">
+						<Marquee className='OUR-RESULTS-mar-home' speed="80" direction="left">
 
 							<div className='marquee-section'>
 								<div className='marquee-section-inner-section-left'>

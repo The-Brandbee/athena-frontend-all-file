@@ -7,13 +7,41 @@ import ArrowOne from '../img/arrow-1.png';
 import Arrowtwo from '../img/arrow-2.png';
 import Search from '../img/search.png';
 
-import MobileTop from '../img/mobilebanner/mobile-in-the-news.jpg';
+import MobileTop from '../img/mobilebanner/mobile-blog.jpg';
 
 class BlogMain extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
     }
+
+    // Constructor 
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            items: [],
+            DataisLoaded: false
+        };
+    }
+
+    // ComponentDidMount is used to
+    // execute the code 
+    componentDidMount() {
+        fetch(
+            "http://35.154.10.243:7036/api/blogs/")
+            .then((res) => res.json())
+            .then((json) => {
+
+                this.setState({
+                    items: json,
+                    DataisLoaded: true
+                });
+            })
+    }
     render() {
+        const { DataisLoaded, items } = this.state;
+        if (!DataisLoaded) return <div>
+            <h1> Plese wait some time.... </h1> </div>;
         return (
             <div className="pmp-profile-page">
                 <div className="banner-section desktopD">
@@ -52,81 +80,32 @@ class BlogMain extends React.Component {
                     <div className='container'>
                         <div className="row">
                             <div className="col-md-8">
-                                <div className="presscoverage-main-frame-middle">
-                                    <div className="presscoverage-main-frame-middle-left">
-                                        <div className="presscoverage-main-frame-middle-left-heading">
-                                            <h3>Category</h3>
-                                            <h2>Name of the blog goes here</h2>
-                                        </div>
-                                        <div className="presscoverage-main-frame-middle-left-heading-middle">
-                                            <h5><img src={Cal} />00-00-0000</h5>
-                                            <p>Want to know how we help our students smoothly navigate their journey to the top universities</p>
-                                        </div>
-                                        <div className='track-your-college-left-link'>
-                                            <a className='footer-top-map-img-button-link ' href='/blog-detail'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                        </div>
-                                    </div>
-                                    <div className="presscoverage-main-frame-middle-right">
-                                        <img src={BlogL} />
-                                    </div>
-                                </div>
-                                <div className="presscoverage-main-frame-middle">
-                                    <div className="presscoverage-main-frame-middle-left">
-                                        <div className="presscoverage-main-frame-middle-left-heading">
-                                            <h3>Category</h3>
-                                            <h2>Name of the blog goes here</h2>
-                                        </div>
-                                        <div className="presscoverage-main-frame-middle-left-heading-middle">
-                                            <h5><img src={Cal} />00-00-0000</h5>
-                                            <p>Want to know how we help our students smoothly navigate their journey to the top universities</p>
-                                        </div>
-                                        <div className='track-your-college-left-link'>
-                                            <a className='footer-top-map-img-button-link ' href='/blog-detail'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                        </div>
-                                    </div>
-                                    <div className="presscoverage-main-frame-middle-right">
-                                        <img src={BlogL} />
-                                    </div>
-                                </div>
-                                <div className="presscoverage-main-frame-middle">
-                                    <div className="presscoverage-main-frame-middle-left">
-                                        <div className="presscoverage-main-frame-middle-left-heading">
-                                            <h3>Category</h3>
-                                            <h2>Name of the blog goes here</h2>
-                                        </div>
-                                        <div className="presscoverage-main-frame-middle-left-heading-middle">
-                                            <h5><img src={Cal} />00-00-0000</h5>
-                                            <p>Want to know how we help our students smoothly navigate their journey to the top universities</p>
-                                        </div>
-                                        <div className='track-your-college-left-link'>
-                                            <a className='footer-top-map-img-button-link ' href='/blog-detail'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                        </div>
-                                    </div>
-                                    <div className="presscoverage-main-frame-middle-right">
-                                        <img src={BlogL} />
-                                    </div>
-                                </div>
 
-                                <div className="presscoverage-main-frame-middle">
-                                    <div className="presscoverage-main-frame-middle-left">
-                                        <div className="presscoverage-main-frame-middle-left-heading">
-                                            <h3>Category</h3>
-                                            <h2>Name of the blog goes here</h2>
-                                        </div>
-                                        <div className="presscoverage-main-frame-middle-left-heading-middle">
-                                            <h5><img src={Cal} />00-00-0000</h5>
-                                            <p>Want to know how we help our students smoothly navigate their journey to the top universities</p>
-                                        </div>
-                                        <div className='track-your-college-left-link'>
-                                            <a className='footer-top-map-img-button-link ' href='/blog-detail'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                        </div>
-                                    </div>
-                                    <div className="presscoverage-main-frame-middle-right">
-                                        <img src={BlogL} />
-                                    </div>
-                                </div>
+                                {
+                                    items.map((item) => (
+                                        <div key={item._id} >
 
-
+                                            <div className="presscoverage-main-frame-middle">
+                                                <div className="presscoverage-main-frame-middle-left">
+                                                    <div className="presscoverage-main-frame-middle-left-heading">
+                                                        <h3 className="none">Category</h3>
+                                                        <h2>{item.heading}</h2>
+                                                    </div>
+                                                    <div className="presscoverage-main-frame-middle-left-heading-middle">
+                                                        <h5><img src={Cal} /> {item.date}</h5>
+                                                        <p>{item.description} ...</p>
+                                                    </div>
+                                                    <div className='track-your-college-left-link'>
+                                                        <a className='footer-top-map-img-button-link' href={`/blog-detail?blogid=${item._id}`}> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
+                                                    </div>
+                                                </div>
+                                                <div className="presscoverage-main-frame-middle-right">
+                                                    <img src={"http://35.154.10.243:7036/" + item.detailimage} />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))
+                                }
 
                             </div>
                             <div className="col-md-4">

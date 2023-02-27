@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import ArrowOne from '../img/arrow-1.png';
 import Arrowtwo from '../img/arrow-2.png';
 import MoneyG from '../img/MoneyG.gif';
+import MoneyGM from '../img/ikigai-gif-mobile.gif';
 import Student from '../img/footer-vector/student-journey.jpg';
 
 import counseling1 from '../img/Bespoke-counseling-1.jpg';
@@ -13,6 +14,7 @@ import counseling4 from '../img/Bespoke-counseling-4.jpg';
 
 import ApproachTwo from '../img/ApproachOne2.png';
 import Testimonials from '../Testimonials';
+import StudentJouMob from '../container/StudentJouMob.js';
 import StudentJou from '../container/StudentJou.js';
 import BannerTwo from '../img/banner/student-journey.jpg';
 // Demo styles, see 'Styles' section below for some notes on use.
@@ -37,8 +39,6 @@ class StudentJourney extends React.Component {
                             <div className='container'>
                                 <div className='second-banner-changehover-main'>
                                     <div className='second-banner-changehover-left'>
-
-
                                         <div className='second-banner-changehover-left2 small-banner'>
 
                                             <h2>We transform the </h2>
@@ -47,11 +47,8 @@ class StudentJourney extends React.Component {
 
                                             </p>
                                         </div>
-
                                     </div>
                                     <div className='second-banner-changehover-right'>
-
-
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +68,7 @@ class StudentJourney extends React.Component {
                                     <h2>Bespoke counseling  you deserve</h2>
                                     <p>By leveraging tech, analytical metrics, and in-house expertise, we wish to: </p>
                                 </div>
-                                <div className="how-top-chose-a-oprtiom-middle-frame">
+                                <div className="how-top-chose-a-oprtiom-middle-frame student-journey-page">
                                     <div className="how-top-chose-a-oprtiom-middle-frame-middle">
                                         <img src={counseling1} />
                                         <p>Get students into the <span>best universities in the world</span></p>
@@ -98,18 +95,16 @@ class StudentJourney extends React.Component {
                     </div >
                 </section >
                 <section className="how-top-chose-a-oprtiom track-your-college student-jou">
-
                     <div className='track-your-college-left text-center'>
                         <h3>Our Student Journey</h3>
                         <h2>We're with you, every step of the way!</h2>
-
                     </div>
-                    <div className="studentjoun-frame-tab">
+                    <div className="studentjoun-frame-tab desktop">
                         <StudentJou />
                     </div>
-
-
-
+                    <div className="studentjoun-frame-tab mobile none">
+                        <StudentJouMob />
+                    </div>
                 </section>
 
 
@@ -124,14 +119,25 @@ class StudentJourney extends React.Component {
 
                     </div>
                     <div className="MoneyG-gif-frame">
-                        <img src={MoneyG} />
+                        <img className="desktopMoneyG" src={MoneyG} />
+                        <img className="MobileMoneyG none" src={MoneyGM} />
                     </div>
                 </section>
-                <section className='Testimonials-home-middle'>
+                <section className='Testimonials-home-middle student-journeypage'>
+                    <div className='Testimonials-home-middle-right track-your-college mobile none'>
+                        <div className='track-your-college-left'>
+                            <h3>Testimonials</h3>
+                            <h2>What people are saying <br />about us!</h2>
+                            <p>We take pride in what we do to groom the future leaders of tomorrow. Here is what our happy parents, students, counsellors and others have to say about Athena Education and the milestones we have reached. </p>
+                            <div className='track-your-college-left-link'>
+                                <Link className='footer-top-map-img-button-link ' to='/testimonials'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></Link>
+                            </div>
+                        </div>
+                    </div>
                     <div className='Testimonials-home-middle-left'>
                         <Testimonials />
                     </div>
-                    <div className='Testimonials-home-middle-right track-your-college'>
+                    <div className='Testimonials-home-middle-right track-your-college desktop'>
                         <div className='track-your-college-left'>
                             <h3>Testimonials</h3>
                             <h2>What people are saying <br />about us!</h2>

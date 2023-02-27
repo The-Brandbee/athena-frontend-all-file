@@ -26,6 +26,17 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 import Calendar from "../container/Calendar";
 import MobileTop from '../img/mobilebanner/mobile-our-story.jpg';
 import MobileFooter from '../img/mobilebanner/Mobile-footer-our-story.jpg';
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+} from 'react-accessible-accordion';
+
+// Demo styles, see 'Styles' section below for some notes on use.
+import 'react-accessible-accordion/dist/fancy-example.css';
+import GradeOne from '../img/grade-1.jpg';
 
 
 class OurStory extends React.Component {
@@ -71,6 +82,9 @@ class OurStory extends React.Component {
                                     <h3>Our Mission & Vision</h3>
                                     <h2>To transform the educational <br />landscape of India
                                     </h2>
+                                    <div className='track-your-college-right-img mobile none'>
+                                        <img src={AdmissionsNew} alt="" />
+                                    </div>
                                     <p>
                                         We are guided by our passion for holistic coaching—embracing both depth and breadth—to achieve a dual purpose: to help students become the best versions of themselves and, as a result, get them into the top colleges in the world. Athena encourages students to harness their theoretical knowledge toward addressing practical social issues, both locally and globally. Our mission is to transform the Indian education system by cultivating the intellectually-curious scholars and leaders of tomorrow.
                                     </p>
@@ -78,23 +92,227 @@ class OurStory extends React.Component {
                                 </div>
                             </div>
                             <div className='col-md-5'>
-                                <div className='track-your-college-right-img'>
+                                <div className='track-your-college-right-img desktop'>
                                     <img src={AdmissionsNew} alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="have-walked-so-far new-add">
+                <section className="have-walked-so-far new-add desktop">
                     <Calendar />
                 </section>
+                <section className="have-walked-so-far new-add desktop mobileour-story none">
+                    <div className="container">
+                        <div className="pmp-profile-page-middle-section container th-grade">
+                            <h3>HOW WE’VE GROWN</h3>
+                            <h2>The road we have walked so far.</h2>
+
+                            <div className="tab-pmp-profilr">
+                                <Accordion allowZeroExpanded>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2014
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-1.jpg" />
+                                                        <h5>In 2014</h5>
+                                                        <ul>
+                                                            <li>The idea sprouts in a coffee shop by our two founding members.</li>
+                                                            <li>Results in establishment of Athena's first office in the basement of our Gurgaon home.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2015
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-2.jpg" />
+                                                        <h5>In 2015</h5>
+                                                        <ul>
+                                                            <li>The Athena logo is designed and pamphlets are distributed to different schools.</li>
+                                                            <li>10 students onboard</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2016
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-3.jpg" />
+                                                        <h5>In 2016</h5>
+                                                        <ul>
+                                                            <li>We host our first graduation banquet as we bid farewell to Athena’s batch of ‘16</li>
+                                                            <li>31 students and our first team members were hired</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2017
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-4.jpg" />
+                                                        <h5>In 2017</h5>
+                                                        <ul>
+                                                            <li>We reach another milestone with our batch of 49 students.</li>
+                                                            <li>Our first EA hired!</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2018
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-5.jpg" />
+                                                        <h5>In 2018</h5>
+                                                        <ul>
+                                                            <li>We move to the 5th floor of Vatika Triangle—our first center and begin hosting scholars for Academies and essay editing.</li>
+                                                            <li>39 students with our first team of counselors</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2019
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-6.jpg" />
+                                                        <h5>In 2019</h5>
+                                                        <ul>
+                                                            <li>We enroll our first set of 9th graders as part of the Ivy Strategy Program and hold a sporty send-off for our graduates</li>
+                                                            <li>33 students and 4 writer-counselors</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2020
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-7.jpg" />
+                                                        <h5>In 2020</h5>
+                                                        <ul>
+                                                            <li>We welcome Research, Arts, and Tech consultants to the Athena Family</li>
+                                                            <li>36 students and a strong team of 10+ employees</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2021
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-8.jpg" />
+                                                        <h5>In 2021</h5>
+                                                        <ul>
+                                                            <li>We build teams of Creative, Research, and Tech mentors, and welcome a Harvard Admissions Committee member</li>
+                                                            <li>56 students with a growing team of 30+ employees</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+                                    <AccordionItem>
+                                        <AccordionItemHeading>
+                                            <AccordionItemButton>
+                                                2022
+                                            </AccordionItemButton>
+                                        </AccordionItemHeading>
+                                        <AccordionItemPanel>
+                                            <div className="th-grade-tab-open-frame">
+                                                <div className="th-grade-tab-open-frame-right">
+                                                    <div className="content-inner-middle">
+                                                        <img src="https://brandbee.nustockimages.in/athena/our-story-cla-9.jpg" />
+                                                        <h5>In 2022</h5>
+                                                        <ul>
+                                                            <li>We expand our national presence with centers in Mumbai and Bangalore.</li>
+                                                            <li>Introduce the Athena Knowledge Center and skill-based Academies for 360-degree immersive learning.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </AccordionItemPanel>
+                                    </AccordionItem>
+
+                                </Accordion>
+
+                            </div>
+                        </div>
+                    </div>
+                </section >
 
                 <section className="Our-Brand-Promise-what-we-do-frame our-story-page new-add">
 
                     <div className="Our-Brand-Promise-what-we-do-frame-left-right">
                         <div className='what-we-do-section-page-right'>
                             <div className='what-we-do-section-page-right-middle'>
-                                <div className='why-choese-us-home-page-heading'>
+                                <div className='why-choese-us-home-page-heading madgin'>
                                     <h3>OUR PHILOSOPHY</h3>
                                     <h2>Odyssey to self-discovery</h2>
                                 </div>
@@ -175,7 +393,7 @@ class OurStory extends React.Component {
                 </section>
                 <section className="Founding-Members-frame">
                     <div className='container'>
-                        <div className="heading-contact-middle">
+                        <div className="heading-contact-middle emerged">
                             <h3>Founding Members</h3>
                             <h2>From our founders' vision, Athena emerged</h2>
                         </div>
@@ -207,7 +425,7 @@ class OurStory extends React.Component {
                         <section className="project-profile-development-frame our-story-2nd RAHUL-SUBRAMANIAM">
 
                             <div className="project-profile-development-frame-left">
-                                <div className="project-profile-development-frame-left-frame">
+                                <div className="project-profile-development-frame-left-frame nn">
                                     <img src={ProfileOne5} />
 
                                 </div>

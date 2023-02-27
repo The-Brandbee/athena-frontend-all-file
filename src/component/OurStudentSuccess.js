@@ -56,9 +56,11 @@ class OurStudentSuccess extends React.Component {
                 </div>
                 <section className="our-team-middle-section about-athena">
                     <div className="pmp-profile-page-middle-section">
-                        <div className="heading-contact-middle">
-                            <h3>CASE STUDIES</h3>
-                            <h2>Here are some of our successful <br />scholars’ profiles</h2>
+                        <div className='container'>
+                            <div className="heading-contact-middle">
+                                <h3>CASE STUDIES</h3>
+                                <h2>Here are some of our successful <br />scholars’ profiles</h2>
+                            </div>
                         </div>
                         <STUDENTTESTIMONIALSsuccess />
                     </div>

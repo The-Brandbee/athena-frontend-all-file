@@ -213,16 +213,8 @@ class ProfilePresentation extends React.Component {
                         </Accordion>
                     </div>
                 </div>
-                <section className="project-profile-development-frame">
-                    <div className="project-profile-development-frame-left">
-                        <div className="project-profile-development-frame-left-frame profile-development">
-                            <img src={profiledevelopment1} />
-                            <img src={profiledevelopment2} />
-                        </div>
-                        <div className="project-profile-development-frame-right-frame">
-                            <img src={profiledevelopment3} />
-                        </div>
-                    </div>
+                <section className="project-profile-development-frame profile-development-page">
+
                     <div className="project-profile-development-frame-right">
                         <div className="project-profile-development-frame-righttwo">
                             <div className="heading-contact-middle">
@@ -246,6 +238,15 @@ class ProfilePresentation extends React.Component {
                                     <li>Natural Science Project</li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                    <div className="project-profile-development-frame-left">
+                        <div className="project-profile-development-frame-left-frame profile-development">
+                            <img src={profiledevelopment1} />
+                            <img src={profiledevelopment2} />
+                        </div>
+                        <div className="project-profile-development-frame-right-frame">
+                            <img src={profiledevelopment3} />
                         </div>
                     </div>
                 </section>

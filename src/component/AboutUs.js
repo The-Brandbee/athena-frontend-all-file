@@ -33,8 +33,17 @@ import Table5 from '../img/about-the-program-6.png';
 import Table6 from '../img/about-the-program-7.png';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import Sticky from 'react-sticky-el';
+import {
+    Accordion,
+    AccordionItem,
+    AccordionItemHeading,
+    AccordionItemButton,
+    AccordionItemPanel,
+} from 'react-accessible-accordion';
 
-
+// Demo styles, see 'Styles' section below for some notes on use.
+import 'react-accessible-accordion/dist/fancy-example.css';
+import GradeOne from '../img/grade-1.jpg';
 import MobileTop from '../img/mobilebanner/mobile-profile-development.jpg';
 import MobileFooter from '../img/mobilebanner/Mobile-footer-about-the-program.jpg';
 
@@ -189,7 +198,95 @@ class AboutUs extends React.Component {
                                     <h3>Our Program</h3>
                                     <h2>Curating an impactful personal brand</h2>
                                 </div>
-                                <div className="about-the-program-bottom-table">
+                                <div className="pmp-profile-page-middle-section container th-grade mobile none">
+                                    <div className="about-the-program-bottom-table tab-pmp-profilr">
+                                        <Accordion allowZeroExpanded>
+                                            <AccordionItem>
+                                                <AccordionItemHeading>
+                                                    <AccordionItemButton>
+                                                        <span className="number"><strong>9</strong><sup>th</sup> Grade</span>
+                                                        <span className="aadw">-</span>
+                                                        <span className="cont">DISCOVER</span>
+                                                    </AccordionItemButton>
+                                                </AccordionItemHeading>
+                                                <AccordionItemPanel>
+                                                    <div className="th-grade-tab-open-frame nAcademies">
+                                                        <p><span>Academies:</span> 8-9</p>
+                                                        <p><span>pROJECTS:</span> 6-7</p>
+                                                        <p><span>Academic Exploration:</span> <br />Academic exploration through our in-house Field Memos</p>
+                                                        <p><span>Summer engagement:</span><br /> Applications for experiential summer programs</p>
+                                                        <p><span>Standardized Test Planning:</span> <br />Introduction to standardized testing + study material</p>
+                                                        <p><span>Focus areas:</span> <br />Facilitate structured academic and extracurricular exploration</p>
+                                                    </div>
+                                                </AccordionItemPanel>
+                                            </AccordionItem>
+
+                                            <AccordionItem>
+                                                <AccordionItemHeading>
+                                                    <AccordionItemButton>
+                                                        <span className="number"><strong>10</strong><sup>th</sup> Grade</span>
+                                                        <span className="aadw">-</span>
+                                                        <span className="cont">DEVELOP</span>
+                                                    </AccordionItemButton>
+                                                </AccordionItemHeading>
+                                                <AccordionItemPanel>
+                                                    <div className="th-grade-tab-open-frame nAcademies">
+                                                        <p><span>Academies:</span> 6-7</p>
+                                                        <p><span>pROJECTS:</span> 4-5</p>
+                                                        <p><span>Academic Exploration:</span> <br />Subject selection for 11th and 12th grade</p>
+                                                        <p><span>Summer engagement:</span><br /> Applications for skill-based summer programs + internships</p>
+                                                        <p><span>Standardized Test Planning:</span> <br />Recommend timelines for SAT/ACT preparation and guide AP subject selection</p>
+                                                        <p><span>Focus areas:</span> <br />Identify the subjects and extracurriculars that align most with the student profile and develop them</p>
+                                                    </div>
+                                                </AccordionItemPanel>
+                                            </AccordionItem>
+
+                                            <AccordionItem>
+                                                <AccordionItemHeading>
+                                                    <AccordionItemButton>
+                                                        <span className="number"><strong>11</strong><sup>th</sup> Grade</span>
+                                                        <span className="aadw">-</span>
+                                                        <span className="cont">DEFINE</span>
+                                                    </AccordionItemButton>
+                                                </AccordionItemHeading>
+                                                <AccordionItemPanel>
+                                                    <div className="th-grade-tab-open-frame nAcademies">
+                                                        <p><span>Academies:</span> 4-5</p>
+                                                        <p><span>pROJECTS:</span> 2-3</p>
+                                                        <p><span>Academic Exploration:</span> <br />Intended major exploration through 1-1 conversations with subject matter experts</p>
+                                                        <p><span>Summer engagement:</span><br /> Applications for more intensive programs/internships</p>
+                                                        <p><span>Standardized Test Planning:</span> <br />AP subject selection based on school subjects and intended major</p>
+                                                        <p><span>Focus areas:</span> <br />Pull together the profile threads and refining a coherent story for profile presentation.</p>
+                                                    </div>
+                                                </AccordionItemPanel>
+                                            </AccordionItem>
+
+                                            <AccordionItem>
+                                                <AccordionItemHeading>
+                                                    <AccordionItemButton>
+                                                        <span className="number"><strong>12</strong><sup>th</sup> Grade</span>
+                                                        <span className="aadw">-</span>
+                                                        <span className="cont">DEMONSTRATE</span>
+                                                    </AccordionItemButton>
+                                                </AccordionItemHeading>
+                                                <AccordionItemPanel>
+                                                    <div className="th-grade-tab-open-frame nAcademies">
+                                                        <p><span>Academies:</span> 1-2</p>
+                                                        <p><span>pROJECTS:</span> At least 1</p>
+                                                        <p><span>Academic Exploration:</span> <br />Intended majors alignment with overall college application strategy</p>
+                                                        <p><span>Summer engagement:</span><br /> Applications for more intensive/project focused programs/internships</p>
+                                                        <p><span>Standardized Test Planning:</span> <br />Help students pick the right scores to report to colleges, whether to report the score or not, how to report them</p>
+                                                        <p><span>Focus areas:</span> <br />Work intensively on final brand alignment and profile presentation through essays, activity list, recommendations, among others.
+                                                        </p>
+                                                    </div>
+                                                </AccordionItemPanel>
+                                            </AccordionItem>
+
+                                        </Accordion>
+
+                                    </div>
+                                </div>
+                                <div className="about-the-program-bottom-table desktop">
                                     <Sticky>
                                         <div className="table-th-heading">
                                             <div className="table-th-heading-left-frame"></div>
