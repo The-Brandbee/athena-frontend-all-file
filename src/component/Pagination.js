@@ -1,23 +1,25 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 
+const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
+    const pageNumbers = [];
 
-
-class Pagination extends React.Component {
-    render() {
-        return (
-            <>
-                <div className="bread-crma-last-frame">
-                    <ul>
-                        <li className="active">1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
-                </div>
-            </>
-        );
+    for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
+        pageNumbers.push(i);
     }
-}
+
+    return (
+        <div className="bread-crma-last-frame">
+            <ul className='pagination'>
+                {pageNumbers.map(number => (
+                    <li onClick={() => paginate(number)} key={number} className='page-item'>
+
+                        {number}
+
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+};
+
 export default Pagination;

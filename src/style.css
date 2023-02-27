@@ -5103,8 +5103,7 @@ header .sticky .header-logo img {
 
 .presscoverage-main-frame-middle {
     display: flex;
-
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .presscoverage-main-frame-middle-left {
@@ -6570,4 +6569,20 @@ header .col-md-2.fixmenu a:hover {
 
 .project-profile-development-frame.profile-development-page {
     flex-direction: row-reverse;
+}
+
+.blog-rect-post ul {
+    display: none;
+}
+
+.blog-rect-post ul:nth-child(1) {
+    display: inherit;
+}
+
+.blog-rect-post ul:nth-child(2) {
+    display: inherit;
+}
+
+.blog-rect-post ul:nth-child(3) {
+    display: inherit;
 }

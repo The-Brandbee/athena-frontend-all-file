@@ -6,6 +6,7 @@ import Cal from "../img/cla-b.png";
 import ArrowOne from "../img/arrow-1.png";
 import Arrowtwo from "../img/arrow-2.png";
 import Search from "../img/search.png";
+import RecentPosts from "./RecentPosts";
 
 class BlogDetail extends React.Component {
     componentDidMount() {
@@ -89,14 +90,7 @@ class BlogDetail extends React.Component {
 
                                     <div className="blog-list-frame-right bottom">
                                         <h4>Recent posts</h4>
-                                        <ul>
-                                            <li>00-00-0000</li>
-                                            <li><Link to="">Name of the blog goes here</Link></li>
-                                            <li>00-00-0000</li>
-                                            <li><Link to="">Name of the blog goes here</Link></li>
-                                            <li>00-00-0000</li>
-                                            <li><Link to="">Name of the blog goes here</Link></li>
-                                        </ul>
+                                        <RecentPosts />
                                     </div>
                                 </div>
                             </div>
