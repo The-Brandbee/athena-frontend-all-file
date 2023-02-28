@@ -65,7 +65,7 @@ class BlogDetail extends React.Component {
                                                 <h5>
                                                     <img src={Cal} /> {item.date}
                                                 </h5>
-                                                <p>{item.main_desc}</p>
+                                                <div dangerouslySetInnerHTML={{ __html: item.main_desc }} />
                                             </div>
                                         </div>
                                     </div>
