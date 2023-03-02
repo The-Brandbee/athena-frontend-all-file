@@ -25,13 +25,13 @@ const Posts = ({ posts, loading }) => {
                                 <div className="presscoverage-main-frame-middle-left-heading-middle">
                                     <h5><img src={Cal} /> {post.date}</h5>
                                     <p>{post.description} ...</p>
-                                </div>
+                                </div> 
                                 <div className='track-your-college-left-link'>
                                     <a className='footer-top-map-img-button-link' href={`/blog-detail?blogid=${post._id}`}> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
                                 </div>
                             </div>
                             <div className="presscoverage-main-frame-middle-right">
-                                <img src={"http://35.154.10.243:7036/" + post.detailimage} />
+                                <img src={"http://35.154.10.243:7036" + post.detailimage} />
                             </div>
                         </div>
                     </div>

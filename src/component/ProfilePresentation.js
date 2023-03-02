@@ -64,7 +64,7 @@ class ProfilePresentation extends React.Component {
                     <div className="heading-contact-middle">
                         <h3>Profile Development </h3>
                         <h2>Discover your true potential</h2>
-                        <p>Our experts develop a comprehensive profile strategy based on your<br /> innate capabilities. To design your theme, we:</p>
+                        <p className="Our-experts">Our experts develop a comprehensive profile strategy based on your<br /> innate capabilities. To design your theme, we:</p>
 
 
                     </div>

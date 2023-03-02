@@ -75,7 +75,7 @@ class AboutAthena extends React.Component {
                             <div className="heading-contact-middle">
                                 <h3>About Us </h3>
                                 <h2>Shaping the students of<br />
-                                    today into the<br />
+                                    today into the <br />
                                     leaders of tomorrow
 
                                 </h2>

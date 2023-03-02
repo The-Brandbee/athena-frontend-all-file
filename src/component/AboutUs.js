@@ -204,7 +204,7 @@ class AboutUs extends React.Component {
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        <span className="number"><strong>9</strong><sup>th</sup> Grade</span>
+                                                        <span className="number"><strong>9</strong><sup>th</sup> </span>
                                                         <span className="aadw">-</span>
                                                         <span className="cont">DISCOVER</span>
                                                     </AccordionItemButton>
@@ -224,7 +224,7 @@ class AboutUs extends React.Component {
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        <span className="number"><strong>10</strong><sup>th</sup> Grade</span>
+                                                        <span className="number"><strong>10</strong><sup>th</sup> </span>
                                                         <span className="aadw">-</span>
                                                         <span className="cont">DEVELOP</span>
                                                     </AccordionItemButton>
@@ -244,7 +244,7 @@ class AboutUs extends React.Component {
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        <span className="number"><strong>11</strong><sup>th</sup> Grade</span>
+                                                        <span className="number"><strong>11</strong><sup>th</sup> </span>
                                                         <span className="aadw">-</span>
                                                         <span className="cont">DEFINE</span>
                                                     </AccordionItemButton>
@@ -264,7 +264,7 @@ class AboutUs extends React.Component {
                                             <AccordionItem>
                                                 <AccordionItemHeading>
                                                     <AccordionItemButton>
-                                                        <span className="number"><strong>12</strong><sup>th</sup> Grade</span>
+                                                        <span className="number"><strong>12</strong><sup>th</sup> </span>
                                                         <span className="aadw">-</span>
                                                         <span className="cont">DEMONSTRATE</span>
                                                     </AccordionItemButton>

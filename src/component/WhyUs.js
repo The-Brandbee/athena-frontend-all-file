@@ -109,6 +109,8 @@ import ResultLogo33 from '../img/results/results-logo-32.jpg';
 import ResultLogo34 from '../img/results/results-logo-34.jpg';
 import ResultLogo35 from '../img/results/results-logo-35.jpg';
 import ResultLogo36 from '../img/results/results-logo-36.jpg';
+import MasalaMobile from '../img/masala-gif-mobile.gif';
+
 import BannerVideo from '../img/athena-masala.mp4';
 import BannerTwo from '../img/banner/why-us.jpg';
 import Carousel from "react-multi-carousel";
@@ -154,7 +156,7 @@ class WhyUs extends React.Component {
                                 <div className='second-banner-changehover-main'>
                                     <div className='second-banner-changehover-left'>
                                         <div className='second-banner-changehover-left2'>
-                                            <h2>In 2022, of our 68<br /> students.</h2>
+                                            <h2>In 2022, of our 68<br /> students,</h2>
                                             <h3>10 got into the <br /> Ivy Leagues</h3>
                                             <p>You could be next.</p>
                                         </div>
@@ -923,12 +925,13 @@ class WhyUs extends React.Component {
                         </div>
 
                     </div>
-                    <video width="100%" playsInline
+                    <video className="MasalaMobile desktop" width="100%" playsInline
                         autoPlay
                         loop
                         muted>
                         <source src={BannerVideo} type="video/mp4" />
                     </video>
+                    <img className="MasalaMobile none" src={MasalaMobile} />
                 </section>
 
 

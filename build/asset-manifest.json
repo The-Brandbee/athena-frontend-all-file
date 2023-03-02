@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8ecef45c.css",
-    "main.js": "/static/js/main.f30b70b7.js",
+    "main.css": "/static/css/main.ccc7d654.css",
+    "main.js": "/static/js/main.ffe7e3d0.js",
     "static/media/atheena-video.mp4": "/static/media/atheena-video.cc6e167f9dbefa768dd0.mp4",
     "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.4cd8b3a3d454ca2356f6.mp4",
     "static/media/Delphi.mp4": "/static/media/Delphi.1898e89063c69b47befc.mp4",
@@ -10,6 +10,7 @@
     "static/media/1.png": "/static/media/1.a09d29983af7c41287cc.png",
     "static/media/6.png": "/static/media/6.910ea26c76f1abd407f5.png",
     "static/media/4.png": "/static/media/4.41c78ed6f38542689560.png",
+    "static/media/masala-gif-mobile.gif": "/static/media/masala-gif-mobile.3b751225e9208bb1ba9f.gif",
     "static/media/7.png": "/static/media/7.e3b193a191f988476f4c.png",
     "static/media/10.png": "/static/media/10.cf870ee0932c96d41300.png",
     "static/media/3.png": "/static/media/3.cbb65bb706f7aa08afef.png",
@@ -71,7 +72,7 @@
     "static/media/mobile-blog.jpg": "/static/media/mobile-blog.cd7f512416d4aa6ab018.jpg",
     "static/media/mobile-profile-development.jpg": "/static/media/mobile-profile-development.b35a3367d2d6e0296b47.jpg",
     "static/media/mobile-9th.jpg": "/static/media/mobile-9th.1ae584a385a5c5a1c5ba.jpg",
-    "static/media/mobile-why-us.jpg": "/static/media/mobile-why-us.6392e7a57b6b4cfb65ec.jpg",
+    "static/media/mobile-why-us.jpg": "/static/media/mobile-why-us.7bdf5cf4e679288f6209.jpg",
     "static/media/mobile-about-athena.jpg": "/static/media/mobile-about-athena.ad6d1b90352c0bf4d469.jpg",
     "static/media/mobile-student-success.jpg": "/static/media/mobile-student-success.97ea7a3d5eec25c9d35d.jpg",
     "static/media/9th.jpg": "/static/media/9th.59180d23eee14979ca56.jpg",
@@ -348,11 +349,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.8ecef45c.css.map": "/static/css/main.8ecef45c.css.map",
-    "main.f30b70b7.js.map": "/static/js/main.f30b70b7.js.map"
+    "main.ccc7d654.css.map": "/static/css/main.ccc7d654.css.map",
+    "main.ffe7e3d0.js.map": "/static/js/main.ffe7e3d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ecef45c.css",
-    "static/js/main.f30b70b7.js"
+    "static/css/main.ccc7d654.css",
+    "static/js/main.ffe7e3d0.js"
   ]
 }

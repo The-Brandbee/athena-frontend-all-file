@@ -29,7 +29,7 @@ class BlogDetail extends React.Component {
         const queryString = window.location.search
         const urlParams = new URLSearchParams(queryString);
         const blogId = urlParams.get('blogid')
-        fetch(`http://35.154.10.243:7036/api/blogs/${blogId}`)
+        fetch(`https://delos.athenaeducation.co.in/api/blogs/${blogId}`)
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
@@ -55,7 +55,7 @@ class BlogDetail extends React.Component {
                                 <div key={item._id}>
                                     <div className="presscoverage-main-frame-middle">
                                         <div className="presscoverage-main-frame-middle-right">
-                                            <img src={"http://35.154.10.243:7036/" + item.image} />
+                                            <img src={"https://delos.athenaeducation.co.in" + item.image} /> 
                                         </div>
                                         <div className="presscoverage-main-frame-middle-left">
                                             <div className="presscoverage-main-frame-middle-left-heading">
@@ -65,7 +65,7 @@ class BlogDetail extends React.Component {
                                                 <h5>
                                                     <img src={Cal} /> {item.date}
                                                 </h5>
-                                                <div dangerouslySetInnerHTML={{ __html: item.main_desc }} />
+                                                <div dangerouslySetInnerHTML={{ __html: item.main_desc }} /> 
                                             </div>
                                         </div>
                                     </div>

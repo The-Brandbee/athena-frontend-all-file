@@ -59,7 +59,7 @@ class PmpProfile extends React.Component {
                     <div className="heading-contact-middle">
                         <h3>Profile Presentation</h3>
                         <h2>What do you bring to the table?</h2>
-                        <p>We analyze each student’s potential, and find exactly what makes you stand out. Then, we develop a <br />profile that demonstrates the unique value you add to any college campus.</p>
+                        <p className="Our-experts">We analyze each student’s potential, and find exactly what makes you stand out. Then, we develop a <br />profile that demonstrates the unique value you add to any college campus.</p>
                     </div>
                     <div className="tab-pmp-profilr profile-presentation-page-new">
                         <div class="student-top-collage-section-us-uk-left-tow-border"></div>

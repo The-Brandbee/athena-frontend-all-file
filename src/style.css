@@ -1702,11 +1702,14 @@ ul.event-home-top-list:last-child {
 
 .number-recent-home-img {
     text-align: center;
-    margin-top: 25px;
+    margin-top: 0px;
     background: #fff;
-    padding: 5px 10px;
+    padding: 5px 0px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+}
+.number-recent-home-img img{
+    width: 100%;
 }
 
 .recent-home-number-main {
@@ -4127,7 +4130,7 @@ header .sticky .header-logo img {
 }
 
 .student-journey.our-story .how-top-chose-a-oprtiom-middle-frame-middle h4 {
-    font-family: Raleway-Medium;
+    font-family: LeagueSpartan-Bold;
     color: #106268;
     font-size: 19px;
     text-transform: uppercase;

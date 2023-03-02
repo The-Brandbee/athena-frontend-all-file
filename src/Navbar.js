@@ -151,7 +151,7 @@ class Navbar extends React.Component {
                           </div>
                         </div>
                       </li>
-                      {/* <li onMouseOut={() => { document.getElementById('test6').classList.remove('show'); }} onMouseOver={(event) => { this.test6(event); }}>
+                      {/* <li  onMouseOut={() => { document.getElementById('test6').classList.remove('show'); }} onMouseOver={(event) => { this.test6(event); }}> 
 
                         <Link to="#">
                           Admissions
@@ -188,7 +188,7 @@ class Navbar extends React.Component {
                             </div>
                           </div>
                         </div>
-                      </li> */}
+                      </li>*/}
                       <li><Link to="/in-the-news">In the News</Link></li>
                       <li>
                         <a target="_blank" href="https://boards.greenhouse.io/athenaeducation">

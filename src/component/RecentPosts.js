@@ -13,11 +13,10 @@ const RecentPosts = () => {
     useEffect(() => {
         const fetchPosts = async () => {
             setLoading(true);
-            const res = await axios.get('http://35.154.10.243:7036/api/blogs/');
+            const res = await axios.get('https://delos.athenaeducation.co.in/api/blogs/');
             setPosts(res.data);
             setLoading(false);
         };
-
         fetchPosts();
     }, []);
 

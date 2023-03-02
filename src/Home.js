@@ -134,7 +134,7 @@ export default class Home extends Component {
 					<div className="container">
 						<div className='why-choese-us-home-page-heading'>
 							<h3>Why Choose Us</h3>
-							<h2>Endless possibilities begin here</h2>
+							<h2>Endless possibilities <span className='begin-n'>begin here</span></h2>
 						</div>
 						<div className='why-choese-us-home-page-heading-middle'>
 							<div className='why-choese-us-home-page-heading-middle-left'>
@@ -288,7 +288,7 @@ export default class Home extends Component {
 									<div className='what-we-do-section-page-right-middle'>
 										<div className='why-choese-us-home-page-heading'>
 											<h3>What We Do?</h3>
-											<h2>Chart your journey to <br />education overseas </h2>
+											<h2>Chart your journey to <br /><span class="begin-n">education overseas </span></h2>
 										</div>
 										<ul>
 											<li>

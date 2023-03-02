@@ -109,7 +109,7 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
 
-                  <AccordionItem>
+                  {/* <AccordionItem>
                     <AccordionItemHeading>
                       <AccordionItemButton>
                         Admissions
@@ -128,7 +128,7 @@ class MobileMenu extends React.Component {
                         </ul>
                       </div>
                     </AccordionItemPanel>
-                  </AccordionItem>
+                  </AccordionItem> */}
 
 
                   <AccordionItem>
