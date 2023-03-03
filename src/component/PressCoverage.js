@@ -2,10 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import BlogIm from '../img/blog.jpg';
 import BannerTwo from '../img/banner/In-the-news.jpg';
-import Cal from '../img/cla-b.png';
-import ArrowOne from '../img/arrow-1.png';
-import Arrowtwo from '../img/arrow-2.png';
-import Search from '../img/search.png';
+
 
 import MediaOne from '../img/media-1.jpg';
 import MediaTwo from '../img/media-2.jpg';
@@ -31,6 +28,7 @@ import MobileTop from '../img/mobilebanner/mobile-in-the-news.jpg';
 import MobileFooter from '../img/mobilebanner/Mobile-footer-in-the-news.jpg';
 
 import Marquee from "react-fast-marquee";
+import NewPost from "./NewPost";
 class PressCoverage extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -128,119 +126,9 @@ class PressCoverage extends React.Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="row">
-                                    <div className="col-md-12">
-                                        <div className="presscoverage-main-frame-middle MEDIA-PAGE">
-                                            <div className="presscoverage-main-frame-middle-left">
-                                                <div className="presscoverage-main-frame-middle-left-heading">
-
-                                                    <h2>How UK and US tech education compare against...
-                                                    </h2>
-                                                </div>
-                                                <div className="presscoverage-main-frame-middle-left-heading-middle">
-
-                                                    <h5><img src={Cal} /> 2022-11-18</h5>
-                                                </div>
-
-                                            </div>
-                                            <div className="presscoverage-main-frame-middle-right">
-                                                <img src={Press1} />
-                                                <div className='track-your-college-left-link'>
-                                                    <a className='footer-top-map-img-button-link ' target="_blank" href='https://www.freepressjournal.in/education/how-uk-and-us-tech-education-compare-against-each-other'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="col-md-12">
-                                        <div className="presscoverage-main-frame-middle MEDIA-PAGE">
-                                            <div className="presscoverage-main-frame-middle-left">
-                                                <div className="presscoverage-main-frame-middle-left-heading">
-
-                                                    <h2>Not Just Grades, THIS is what Top Universities need to ...
-                                                    </h2>
-                                                </div>
-                                                <div className="presscoverage-main-frame-middle-left-heading-middle">
-
-                                                    <h5><img src={Cal} /> 2022-11-19</h5>
-                                                </div>
-
-                                            </div>
-                                            <div className="presscoverage-main-frame-middle-right">
-                                                <img src={Press2} />
-                                                <div className='track-your-college-left-link'>
-                                                    <a className='footer-top-map-img-button-link ' target="_blank" href='https://www.timesnownews.com/education/not-just-grades-this-is-what-top-universities-need-to-see-in-your-application-article-94648537'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12">
-                                        <div className="presscoverage-main-frame-middle MEDIA-PAGE">
-                                            <div className="presscoverage-main-frame-middle-left">
-                                                <div className="presscoverage-main-frame-middle-left-heading">
-
-                                                    <h2>How to deliver balanced learning of theory and practice through...
-                                                    </h2>
-                                                </div>
-                                                <div className="presscoverage-main-frame-middle-left-heading-middle">
-
-                                                    <h5><img src={Cal} /> 2022-11-10</h5>
-                                                </div>
-
-                                            </div>
-                                            <div className="presscoverage-main-frame-middle-right">
-                                                <img src={Press3} />
-                                                <div className='track-your-college-left-link'>
-                                                    <a className='footer-top-map-img-button-link ' target="_blank" href='https://newspatrolling.com/how-to-deliver-balanced-learning-of-theory-and-practice-through-different-technologies/'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12">
-                                        <div className="presscoverage-main-frame-middle MEDIA-PAGE">
-                                            <div className="presscoverage-main-frame-middle-left">
-                                                <div className="presscoverage-main-frame-middle-left-heading">
-
-                                                    <h2>Applying For Overseas Colleges? 5 Common Mistakes...
-                                                    </h2>
-                                                </div>
-                                                <div className="presscoverage-main-frame-middle-left-heading-middle">
-
-                                                    <h5><img src={Cal} /> 2022-11-09</h5>
-                                                </div>
-
-                                            </div>
-                                            <div className="presscoverage-main-frame-middle-right">
-                                                <img src={Press4} />
-                                                <div className='track-your-college-left-link'>
-                                                    <a className='footer-top-map-img-button-link ' target="_blank" href='https://www.india.com/education/indian-students-applying-for-overseas-colleges-need-to-avoid-these-5-common-mistakes-5682454/'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12">
-                                        <div className="presscoverage-main-frame-middle MEDIA-PAGE">
-                                            <div className="presscoverage-main-frame-middle-left">
-                                                <div className="presscoverage-main-frame-middle-left-heading">
-
-                                                    <h2>World Students’ Day 2022 Today; Remembering...
-                                                    </h2>
-                                                </div>
-                                                <div className="presscoverage-main-frame-middle-left-heading-middle">
-
-                                                    <h5><img src={Cal} /> 2022-11-17</h5>
-                                                </div>
-
-                                            </div>
-                                            <div className="presscoverage-main-frame-middle-right">
-                                                <img src={Press6} />
-                                                <div className='track-your-college-left-link'>
-                                                    <a className='footer-top-map-img-button-link ' target="_blank" href='https://www.ndtv.com/education/world-students-day-2022-today-remembering-dr-apj-abdul-kalam-inspiring-quotes'> Read more <span><img src={ArrowOne} className="normal" alt="" /><img src={Arrowtwo} className="normal-ho" alt="" /></span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12 texe-center">
+                                    <NewPost/>
+                                  
+                                    <div className="col-md-12 texe-center none">
                                         <div className="bread-crma-last-frame texe-center">
                                             <ul className="texe-center">
                                                 <li className="active">1</li>

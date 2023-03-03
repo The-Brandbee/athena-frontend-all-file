@@ -55,7 +55,7 @@ class BlogDetail extends React.Component {
                                 <div key={item._id}>
                                     <div className="presscoverage-main-frame-middle">
                                         <div className="presscoverage-main-frame-middle-right">
-                                            <img src={"https://delos.athenaeducation.co.in" + item.image} /> 
+                                            <img src={"https://delos.athenaeducation.co.in/" + item.image} /> 
                                         </div>
                                         <div className="presscoverage-main-frame-middle-left">
                                             <div className="presscoverage-main-frame-middle-left-heading">

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d29fbc88.css",
-    "main.js": "/static/js/main.39c34c8b.js",
+    "main.js": "/static/js/main.c137fc29.js",
     "static/media/atheena-video.mp4": "/static/media/atheena-video.cc6e167f9dbefa768dd0.mp4",
     "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.4cd8b3a3d454ca2356f6.mp4",
     "static/media/Delphi.mp4": "/static/media/Delphi.1898e89063c69b47befc.mp4",
@@ -350,10 +350,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.d29fbc88.css.map": "/static/css/main.d29fbc88.css.map",
-    "main.39c34c8b.js.map": "/static/js/main.39c34c8b.js.map"
+    "main.c137fc29.js.map": "/static/js/main.c137fc29.js.map"
   },
   "entrypoints": [
     "static/css/main.d29fbc88.css",
-    "static/js/main.39c34c8b.js"
+    "static/js/main.c137fc29.js"
   ]
 }

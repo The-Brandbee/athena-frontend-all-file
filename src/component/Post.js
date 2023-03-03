@@ -31,7 +31,7 @@ const Posts = ({ posts, loading }) => {
                                 </div>
                             </div>
                             <div className="presscoverage-main-frame-middle-right">
-                                <img src={"http://35.154.10.243:7036" + post.detailimage} />
+                                <img src={"https://delos.athenaeducation.co.in/" + post.detailimage} />
                             </div>
                         </div>
                     </div>
