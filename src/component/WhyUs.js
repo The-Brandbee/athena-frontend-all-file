@@ -492,6 +492,939 @@ class WhyUs extends React.Component {
                                         </div>
 
                                     </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result1} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    03
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo1} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result2} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    01
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo2} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result3} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    12
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo3} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result4} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    47
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo4} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result5} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    12
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo5} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result6} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    03
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo6} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result7} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo7} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result8} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    09
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo8} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result9} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    11
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo9} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result10} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    04
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo10} alt="" />
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result11} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    19
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo11} alt="" />
+                                        </div>
+
+                                    </div>
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result13} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    09
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo13} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result14} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    13
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo14} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result15} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    76
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo15} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result16} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo16} alt="" />
+                                        </div>
+
+                                    </div>
+
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result17} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo17} alt="" />
+                                        </div>
+
+                                    </div>
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result20} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    30
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo20} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result21} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    24
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo21} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result22} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    122
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo22} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result1} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    03
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo1} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result2} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    01
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo2} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result3} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    12
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo3} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result4} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    47
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo4} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result5} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    12
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo5} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result6} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    03
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo6} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result7} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo7} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result8} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    09
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo8} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result9} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    11
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo9} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result10} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    04
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo10} alt="" />
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result11} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    19
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo11} alt="" />
+                                        </div>
+
+                                    </div>
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result13} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    09
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo13} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result14} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    13
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo14} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result15} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    76
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo15} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result16} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo16} alt="" />
+                                        </div>
+
+                                    </div>
+
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result17} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo17} alt="" />
+                                        </div>
+
+                                    </div>
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result20} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    30
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo20} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result21} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    24
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo21} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result22} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    122
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo22} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result1} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    03
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo1} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result2} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    01
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo2} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result3} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    12
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo3} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result4} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    47
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo4} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result5} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    12
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo5} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result6} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    03
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo6} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result7} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo7} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result8} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    09
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo8} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result9} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    11
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo9} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result10} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    04
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo10} alt="" />
+                                        </div>
+
+                                    </div>
+
+
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result11} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    19
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo11} alt="" />
+                                        </div>
+
+                                    </div>
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result13} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    09
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo13} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result14} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    13
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo14} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result15} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    76
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo15} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result16} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo16} alt="" />
+                                        </div>
+
+                                    </div>
+
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result17} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    06
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo17} alt="" />
+                                        </div>
+
+                                    </div>
+
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result20} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    30
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo20} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result21} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    24
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo21} alt="" />
+                                        </div>
+
+                                    </div>
+                                    <div className='marquee-section-inner-section-left'>
+                                        <div className='marquee-section-inner-section'>
+                                            <img src={Result22} alt="" />
+                                            <div className='marquee-section-inner-section-back'></div>
+                                            <div className='marquee-section-inner-section-back-inner'>
+                                                <div className='marquee-section-inner-section-back-inner-cont'>
+                                                    122
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className='marquee-section-inner-section-botton-img'>
+                                            <img src={ResultLogo22} alt="" />
+                                        </div>
+
+                                    </div> 
                                 </div>
 
                             </Marquee>
@@ -910,14 +1843,14 @@ class WhyUs extends React.Component {
 
 
                             </Carousel>
-                        </div>
+                        </div>  
                     </div>
                 </section>
                 <section className="why-us-video-frame video-add">
 
                     <iframe width="100%" height="600" src="https://www.youtube.com/embed/o-c-QWNEr2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section>
-                <section className='why-us-college-application track-your-college'>
+                <section className='why-us-college-application track-your-college gif'>
                     <div className="container">
                         <div className='track-your-college-left text-center'>
                             <h3>The Athena Masala</h3>

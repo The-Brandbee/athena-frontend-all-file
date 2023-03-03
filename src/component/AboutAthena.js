@@ -74,7 +74,7 @@ class AboutAthena extends React.Component {
                         <div className="project-profile-development-frame-righttwo">
                             <div className="heading-contact-middle">
                                 <h3>About Us </h3>
-                                <h2>Shaping the students of<br />
+                                <h2>Shaping the students of <br />
                                     today into the <br />
                                     leaders of tomorrow
 
@@ -213,7 +213,7 @@ class AboutAthena extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="Our-Mentors-frame-our-story-frame-left">
+                    <div className="Our-Mentors-frame-our-story-frame-left n">
                         <img src={OurMentors} alt="" />
                     </div>
                 </section>

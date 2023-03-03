@@ -10,6 +10,7 @@ import Insta from '../img/insta2.png';
 import Tw from '../img/tw2.png';
 import Youtube from '../img/youtube2.png';
 import MobileTop from '../img/mobilebanner/mobile-contact-us.jpg';
+import HubspotContactForm from "./HubspotContactForm";
 
 
 class Contact extends React.Component {
@@ -55,7 +56,8 @@ class Contact extends React.Component {
                             <h2>Please get in touch and our expert support<br /> team will answer all your questions.</h2>
                         </div>
                         <div className="Contact-form-middle-frame">
-                            <form>
+                            <HubspotContactForm/> 
+                            <form className="none">
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="Contact-form-middle-frame-box">
@@ -154,7 +156,7 @@ class Contact extends React.Component {
                             <h2>Check us out on social media</h2>
                             <p>Want to know how we help our students smoothly navigate their journey to the top universities across the globe? <br />Follow us on social media and be a part of our community.  </p>
                         </div>
-                        <div className='instagram-page-scol'>
+                        <div className='instagram-page-scol contactpage'>
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/athenaeducationindia" target="_blank">
@@ -191,6 +193,7 @@ class Contact extends React.Component {
                         <InstagramApi />
                     </div>
                 </section>
+               
 
             </div >
         );

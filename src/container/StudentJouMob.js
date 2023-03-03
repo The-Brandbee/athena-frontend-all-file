@@ -68,7 +68,7 @@ export default class StudentJou extends Component {
                                 </div>
                                 <div className='Assess-tab-frame-middle'>
                                     <h4><span>EXECUTE </span> <img src={studentJicon9} /></h4>
-                                    <h5>(Essays | Applications | Interviews | Pick the college) :</h5>
+                                    <h5>Essays | Applications | Interviews | Pick the college :</h5>
                                     <ul>
                                         <li>Essays</li>
                                         <li>Letter of Recommendation (LoRs) and Activity List</li>

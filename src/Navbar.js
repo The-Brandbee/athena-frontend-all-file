@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
-import Logo from './img/logo.png';
+import Logo from './img/logo-new.png';
 import ApproachOne1 from './img/menu1.jpg';
 import ApproachOne2 from './img/menu2.jpg';
 import ApproachOne3 from './img/menu3.jpg';

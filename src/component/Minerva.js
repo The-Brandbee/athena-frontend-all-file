@@ -440,7 +440,7 @@ class Minerva extends React.Component {
 
                     </div>
                 </div>
-                <section className="our-team-middle-section">
+                <section className="our-team-middle-section n-mobile">
                     <div className="pmp-profile-page-middle-section container">
                         <div className="heading-contact-middle">
                             <h3>Our Instructors</h3>

@@ -23,7 +23,7 @@ class PmpProfile extends React.Component {
     }
     render() {
         return (
-            <div className="pmp-profile-page">
+            <div className="pmp-profile-page profile-presentation-pageadd">
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>
@@ -144,7 +144,7 @@ class PmpProfile extends React.Component {
                                     <AccordionItemHeading>
                                         <AccordionItemButton>
                                             <h3>EXECUTE</h3>
-                                            <p>(Essays | Applications | Interviews | Pick the college) </p>
+                                            <p>Essays | Applications | Interviews | Pick the college</p>
                                         </AccordionItemButton>
                                     </AccordionItemHeading>
 

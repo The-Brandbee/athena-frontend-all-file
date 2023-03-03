@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ccc7d654.css",
-    "main.js": "/static/js/main.ffe7e3d0.js",
+    "main.css": "/static/css/main.d29fbc88.css",
+    "main.js": "/static/js/main.39c34c8b.js",
     "static/media/atheena-video.mp4": "/static/media/atheena-video.cc6e167f9dbefa768dd0.mp4",
     "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.4cd8b3a3d454ca2356f6.mp4",
     "static/media/Delphi.mp4": "/static/media/Delphi.1898e89063c69b47befc.mp4",
@@ -20,22 +20,22 @@
     "static/media/5.png": "/static/media/5.406fc3551f845df2d431.png",
     "static/media/MoneyG.gif": "/static/media/MoneyG.d2c6ad9a4bd360efd217.gif",
     "static/media/about-athena.jpg": "/static/media/about-athena.5be8b8390de63617cc41.jpg",
-    "static/media/homepagebanner-1.png": "/static/media/homepagebanner-1.bacee53b9d3e82e1c2b7.png",
+    "static/media/homepagebanner-1.png": "/static/media/homepagebanner-1.a76aa8214451810b5b92.png",
     "static/media/Mobile-footer-about-athena.jpg": "/static/media/Mobile-footer-about-athena.24dd4ac21faa370dcc5a.jpg",
-    "static/media/homepagebanner-3.png": "/static/media/homepagebanner-3.070b265f0db34058ec41.png",
-    "static/media/homepagebanner-4.png": "/static/media/homepagebanner-4.3e84167c6bd380196c3a.png",
+    "static/media/homepagebanner-3.png": "/static/media/homepagebanner-3.1b97443ea2d084cad7bf.png",
     "static/media/student-journey.jpg": "/static/media/student-journey.30bdc15d4aeeea47a5c6.jpg",
+    "static/media/homepagebanner-4.png": "/static/media/homepagebanner-4.6918512c5a1a5a17eb07.png",
     "static/media/Mobile-footer-in-the-news.jpg": "/static/media/Mobile-footer-in-the-news.84a2ad19bdc2c9a37d17.jpg",
     "static/media/Mobile-footer-why-us.jpg": "/static/media/Mobile-footer-why-us.43da5b6669d7eb31e276.jpg",
     "static/media/Mobile-footer-about-the-program.jpg": "/static/media/Mobile-footer-about-the-program.fd28c3d4d12f5d248736.jpg",
     "static/media/Mobile-footer-student-journey.jpg": "/static/media/Mobile-footer-student-journey.88b0f1c66002218516d1.jpg",
-    "static/media/homepagebanner-2.png": "/static/media/homepagebanner-2.11bde0b025870a2063f4.png",
     "static/media/about-the-program.jpg": "/static/media/about-the-program.3bd17f3d69ed26df5dbd.jpg",
     "static/media/in-the-news.jpg": "/static/media/in-the-news.a8b0ae4e16a0bb3e65e6.jpg",
     "static/media/how-to-apply.jpg": "/static/media/how-to-apply.078df3f1711a3b8237cf.jpg",
     "static/media/knowledge-center.jpg": "/static/media/knowledge-center.c4110ad56af77304317f.jpg",
     "static/media/Mobile-footer-how-to-apply.jpg": "/static/media/Mobile-footer-how-to-apply.2687b5b0700d2c99128d.jpg",
     "static/media/US.jpg": "/static/media/US.1751070686419706d6a2.jpg",
+    "static/media/homepagebanner-2.png": "/static/media/homepagebanner-2.fe100b8f4b3f352e3986.png",
     "static/media/contact-us.png": "/static/media/contact-us.8478182c366e3a528c4f.png",
     "static/media/our-team.jpg": "/static/media/our-team.a43707667edd41f6088e.jpg",
     "static/media/athena-banner.png": "/static/media/athena-banner.0b71cf255d88ec3c17db.png",
@@ -51,6 +51,7 @@
     "static/media/Mobile-footer-our-team.jpg": "/static/media/Mobile-footer-our-team.b390ab22ee8880e00e6f.jpg",
     "static/media/Calendar.jpg": "/static/media/Calendar.9987861d52caa44aa464.jpg",
     "static/media/Canada.jpg": "/static/media/Canada.3458ff36ef51082d94b7.jpg",
+    "static/media/about-athena-7.jpg": "/static/media/about-athena-7.bb1400ca4ca2dc4e7e2d.jpg",
     "static/media/map-mobil.gif": "/static/media/map-mobil.c8eac213a7abe01fb234.gif",
     "static/media/our-story-13.jpg": "/static/media/our-story-13.be2643efe49eb1f437fb.jpg",
     "static/media/9.png": "/static/media/9.6e0d7067eb6892a8966b.png",
@@ -85,7 +86,6 @@
     "static/media/mobile-knowledge-center.jpg": "/static/media/mobile-knowledge-center.5c3bad43328cef42e35f.jpg",
     "static/media/mobile-10th.jpg": "/static/media/mobile-10th.540ea1879b46b9b1a34c.jpg",
     "static/media/11th.jpg": "/static/media/11th.9234672194ee40631851.jpg",
-    "static/media/about-athena-7.jpg": "/static/media/about-athena-7.6642195a63260f1bccb7.jpg",
     "static/media/blog.jpg": "/static/media/blog.6b3dc5f1fe45026b26cd.jpg",
     "static/media/15.png": "/static/media/15.b9767378d00993a7b781.png",
     "static/media/16.png": "/static/media/16.c8a9d77c820e7495c237.png",
@@ -349,11 +349,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.ccc7d654.css.map": "/static/css/main.ccc7d654.css.map",
-    "main.ffe7e3d0.js.map": "/static/js/main.ffe7e3d0.js.map"
+    "main.d29fbc88.css.map": "/static/css/main.d29fbc88.css.map",
+    "main.39c34c8b.js.map": "/static/js/main.39c34c8b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccc7d654.css",
-    "static/js/main.ffe7e3d0.js"
+    "static/css/main.d29fbc88.css",
+    "static/js/main.39c34c8b.js"
   ]
 }

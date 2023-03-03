@@ -143,7 +143,7 @@
     }
 
     .cds--tabs .cds--tab--overflow-nav-button--next {
-        top: 15px !IMPORTANT;
+        top: 36px !IMPORTANT;
     }
 
     .pmp-profile-page-middle-section.container.th-grade .heading-contact-middle {
@@ -152,6 +152,9 @@
 
     .Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left {
         width: 45%;
+    }
+    .Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left:last-child{
+        margin-bottom: 0px;
     }
 
     .Autobiography-of-a-Student-frame .Autobiography-of-a-Student-frame-left .what-we-do-top-section-top-middle-left-border {
@@ -163,11 +166,11 @@
     }
 
     .cds--tabs .cds--tab--overflow-nav-button--next {
-        right: 0px !important;
+        right: -15px !important;
     }
 
     .cds--tabs .cds--tab--overflow-nav-button--previous {
-        left: 0px !important;
+        left: -15px !important;
     }
 
     .The-proud-accomplishments-framesec .The-proud-accomplishments-frame-left {
@@ -178,9 +181,13 @@
     .The-proud-accomplishments-frame-left {
         width: 100%;
         margin-right: 0%;
-
-        margin-bottom: 30px;
-
+        margin-bottom: 55px;
+    }
+    .The-proud-accomplishments-frame-right-top-frame-bottom{
+        margin-top: 55px;
+    }
+    .The-proud-accomplishments-frame-right-top-frame-bottom.new{
+        margin-bottom: 45px;
     }
 
     .The-proud-accomplishments-frame {
@@ -198,9 +205,17 @@
     }
 
     .testimonials-all-page-align {
-        padding: 30px 0px;
+        padding: 55px 0px;
     }
-
+    .Testimonials-home-middle-right.track-your-college.mobile.none .track-your-college-left.te-page{
+        padding: 70px 15px !important;
+    }
+    .Testimonials-home-middle-right.track-your-college.mobile.none .track-your-college-left.te-page p{
+        padding-top: 55px;
+    }
+.Video-Testimonials-page .heading-contact-middle{
+    padding-top: 70px;
+}
     .testimonials-all-page-align-middle {
         display: inherit !important;
     }
@@ -214,7 +229,10 @@
     }
 
     .our-student-success-new2 .testimonials-all-page-align-middle-right {
-        padding: 0px 20px;
+        padding: 40px 20px;
+    }
+    .pmp-profile-page-middle-section.container.our-student-success{
+        padding-top: 20px;
     }
 
     .testimonials-all-page-align-middle-right {
@@ -289,7 +307,8 @@
 
 
     .Companies-where-Athena-frame-logo-frame {
-        margin-top: 30px;
+        margin-top: 55px;
+        margin-bottom: 35px;
     }
 
     .outer-container .carousel-wrapper {
@@ -403,7 +422,7 @@
     }
 
     .admissions-page.admissions-us .track-your-college.admissions-page .track-your-college-left {
-        margin-top: 30px;
+        margin-top: 55px;
         text-align: center;
     }
 
@@ -429,7 +448,7 @@
     }
 
     .track-your-college.admissions-page .track-your-college-left p {
-        margin-top: 30px;
+        margin-top: 55px;
     }
 
     .track-your-college.admissions-page .track-your-college-left {
@@ -471,12 +490,19 @@
     }
 
     .Our-Mentors-frame-our-story-frame {
-        margin-top: 50px;
+        margin-top: 70px;
         display: inline-block;
+    }
+    .what-we-do-section-page{
+        margin-bottom: 0px;
     }
 
     .Our-Mentors-frame-our-story-frame .Our-Mentors-frame-our-story-frame-right .why-choese-us-home-page-heading p {
-        margin-top: 36px;
+        margin-top: 55px;
+        margin-bottom: 55px;
+    }
+    .Our-Mentors-frame-our-story-frame-left.n{
+        margin-top: 60px;
     }
 
     .heading-contact-middle h2 {
@@ -502,7 +528,12 @@
         padding-bottom: 50px;
         display: inline-block;
     }
-
+.our-team-middle-section.n-mobile .heading-contact-middle{
+    padding-top: 0px;
+}
+.our-team-middle-section.n-mobile{
+    margin-bottom: 20px;
+}
     .what-we-do-section-page.about-athena-new .what-we-do-section-page-left {
         padding-right: 0px;
     }
@@ -565,15 +596,15 @@
     }
 
     .footer-top-map-img-button {
-        margin-top: 20px;
+        margin-top: 50px;
     }
 
     .footer-top-map {
-        padding-bottom: 50px;
+        padding-bottom: 70px;
     }
 
     .footer-top-map.home-page-new {
-        padding-top: 50px;
+        padding-top: 70px;
     }
 
     .second-banner-changehover-left h3 {
@@ -590,18 +621,24 @@
 
     .student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-left {
         width: 100%;
-        padding: 50px 20px;
+        padding: 70px 20px;
+    }
+    .student-top-collage-section-us-uk.home-page-new .student-top-collage-section-us-uk-lef-three{
+        margin-bottom: 55px;
     }
 
     .student-top-collage-section-us-uk.home-page-new .what-we-do-section-page-right {
-        padding-top: 40px !important;
+        padding-top: 70px !important;
         display: inline-block;
-        padding-bottom: 40px;
+        padding-bottom: 70px;
     }
 
     .student-top-collage-section-us-uk.home-page-new .what-we-do-section-page ul {
         width: 80%;
         margin: 0 auto;
+    }
+    .what-we-do-section-page .what-we-do-section-page-right .why-choese-us-home-page-heading h2{
+        margin-bottom: 55px;
     }
 
     .upcomming-event {
@@ -643,15 +680,15 @@
     }
 
     .our-result-home {
-        padding: 50px 0px;
+        padding: 70px 0px;
     }
 
     .why-choese-us-home-page {
-        padding: 50px 0px;
+        padding: 70px 0px;
     }
 
     .track-your-college {
-        padding: 50px 0px;
+        padding: 70px 0px;
     }
 
     .track-your-college-right-img-video-2 {
@@ -698,7 +735,7 @@
 
     .home-event-section-page-right {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     footer .row .col-md-9 {
@@ -725,7 +762,7 @@
     .Testimonials-home-middle .Testimonials-home-middle-left {
         width: 100%;
         background: #ededed;
-        padding: 50px 0px 80px 0px;
+        padding: 55px 0px 80px 0px;
         position: relative;
     }
 
@@ -766,7 +803,7 @@
     }
 
     .track-your-college-right-img img {
-        margin-top: 0px;
+        margin-top: 30px;
     }
 
     .heading-contact-middle.new-add h2 {
@@ -796,8 +833,14 @@
     }
 
     .what-we-do-section-page .what-we-do-section-page-right {
-        padding: 50px 20px;
+        padding: 70px 20px;
         width: 100%;
+    }
+    .what-we-do-section-page.about-athena-new .why-choese-us-home-page-heading p:nth-child(4){
+        margin-bottom: 50px;
+    }
+    .what-we-do-section-page ul li:last-child{
+        margin-bottom: 0px;
     }
 
     .what-we-do-section-page .what-we-do-section-page-left {
@@ -859,6 +902,7 @@
         padding: 14px 10px;
         font-size: 13px;
         margin-left: 15px;
+        margin-top: 2px;
     }
 
     .navbar-menu-header {
@@ -935,7 +979,8 @@
     }
 
     .mobile-menu-header .container-- .col-md-2-- img {
-        width: 75px;
+        width: 120px;
+        margin-top: 25px;
     }
 
     .mobile-menu-header .button~ul {
@@ -1033,9 +1078,11 @@
 
     .what-we-do-section-page ul li {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 32px;
     }
-
+    .why-choese-us-home-page-heading h2.Endless-possibilities{
+        margin-bottom: 40px;
+    }
     .what-we-do-section-page ul {
         display: inherit;
     }
@@ -1083,6 +1130,7 @@
     .home-page-para-heading h2 {
         font-size: 30px;
         line-height: 31px;
+        margin-top: 0px;
     }
 
     .recent-home-number-main {
@@ -1100,6 +1148,9 @@
     .Testimonials-home-middle-right.track-your-college.desktop h3 {
         display: none;
     }
+    .footer-top-map.home-page-new .footer-top-map-img-button{
+
+    }
 
     .Testimonials-home-middle-right.track-your-college.desktop h2 {
         display: none;
@@ -1115,12 +1166,18 @@
         padding: 5%;
         padding-bottom: 0px;
         margin-top: 0px;
+        padding-top: 50px;
+    }
+    .Want-to-know-how-we{
+        margin-bottom: 50px;
     }
 
     .Testimonials-home-middle .track-your-college .track-your-college-left p {
         margin: 0px 0px;
     }
-
+    .track-your-college .track-your-college-left p{
+        margin: 50px 0px;
+    }
     .Testimonials-home-middle .track-your-college .track-your-college-left-link {
         padding-bottom: 40px;
         padding-top: 20px;
@@ -1144,7 +1201,7 @@
     }
 
     .marquee-section-inner-section-left {
-        width: 3%;
+        width: 0.9%;
         margin-right: 15px;
     }
 
@@ -1200,7 +1257,7 @@
     }
 
     .why-choese-us-home-page.mobile .container .why-choese-us-home-page-heading {
-        padding: 15px;
+        padding: 0px 15px;
     }
 
     .why-choese-us-home-page-heading-middle-left-img-back {
@@ -1282,7 +1339,7 @@
         width: 36px;
         height: 30px;
         right: 0px;
-        top: 17px;
+        top: 20px;
     }
 
     .bm-overlay {
@@ -1391,6 +1448,8 @@
 
     .project-profile-development-frame.what-we-do.about-athena-new .track-your-college-left-link {
         text-align: center;
+        margin-top: 55px;
+        margin-bottom: 55px;
 
     }
 
@@ -1540,7 +1599,10 @@
     }
 
     .project-profile-development-frame-righttwo {
-        margin-top: 40px;
+        margin-top: 0px;
+    }
+    .admissions-page .heading-contact-middle h2{
+        margin-bottom: 55px;
     }
 
     .admission-to-your-dream-university-frame {
@@ -1706,7 +1768,10 @@
 
     .Marquee-main-phonewhy-page.none {
         display: inherit;
-        margin-top: 40px;
+        margin-top: 55px;
+    }
+    .why-us-video-frame.video-add {
+        margin-bottom: 70px;
     }
 
     .louder-than-our-words-why-middle-section-newadd-main.desktop {
@@ -1740,9 +1805,18 @@
 
     .STUDENTACCOLADES-sectuon.admissions-results-scholarships.new .STUDENTACCOLADES-sectuon-middle-left-inner-right {
         width: 100%;
-        margin-top: 20px;
-        padding-bottom: 20px;
+        margin-top: 55px;
+        padding-bottom: 55px;
         padding-right: 35px;
+    }
+    .STUDENTACCOLADES-sectuon.admissions-results-scholarships.new.b{
+        margin-bottom: 70px;
+    }
+    .STUDENTACCOLADES-sectuon-middle-left-inner{
+        margin-bottom: 55px;
+    }
+    .minerva-top-frame .track-your-college-right-img{
+        margin-top: 35px !important;
     }
 
     .STUDENTACCOLADES-sectuon.admissions-results-scholarships.new .STUDENTACCOLADES-sectuon-middle-left-inner {
@@ -1757,6 +1831,9 @@
     .recent-acceptance-home-frame.home-new {
         position: relative;
         
+    }
+    .track-your-college.home-page-new.man{
+        padding: 0px 0px 70px 0px;
     }
 
     .recent-acceptance-home-frame.home-new .react-multi-carousel-list {
@@ -1777,7 +1854,10 @@
     }
 
     .OUR-RESULTS-mar-home {
-        margin-top: 40px;
+        margin-top: 50px;
+    }
+    .Track-your-college-application{
+        margin-bottom: 30px;
     }
 
     .STUDENTACCOLADES-sectuon-middle.new-line .STUDENTACCOLADES-sectuon-middle-left-inner {
@@ -1857,7 +1937,7 @@
     }
 
     .admission-to-your-dream-university-frame {
-        padding: 30px 0px;
+        padding: 55px 0px;
     }
 
     .Testimonials-home-middle.student-journeypage .react-multiple-carousel__arrow {
@@ -2047,7 +2127,7 @@
 
     .pmp-profile-page-middle-section.container.th-grade.mobile.none {
         display: inherit;
-        margin-top: 50px;
+        margin-top: 55px;
     }
 
     .th-grade-tab-open-frame.nAcademies p {}
@@ -2111,6 +2191,17 @@
         display: inherit;
         width: 95%;
         margin: 0 auto; 
+        margin-top: 40px;
+    }
+    .why-us-college-application.track-your-college.gif{
+        padding-bottom: 20px;
+    }
+    .STUDENTACCOLADES-sectuon-middle .STUDENTACCOLADES-sectuon-middle-left-inner:last-child{
+        margin-bottom: 0px;
+    }
+    .Companies-where-Athena-frame-logo-frame-main{
+        margin-top: 55px;
+        margin-bottom: 70px;
     }
     .cds--tabs .cds--tabs__nav-item--selected img{
         height: auto !important;
@@ -2125,19 +2216,207 @@
         margin-top: 30px;
     }
     .why-choese-us-home-page.mobile{
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
-    .recent-acceptance-home-frame.home-new {
-        padding: 45px 20px 50px 20px
+    .recent-acceptance-home-frame.home-new { 
+        padding: 60px 20px 70px 20px
     }
     .our-team-middle-section-frame .our-team-middle-section-frame-left h4{
         font-size: 16px;
     }
     .cds--tabs .cds--tabs__nav-link{
-        width: 24% !important;
-        padding: 15px 19px !important;
-        margin-right: 20px !important; 
+        width: 31% !important;
+        padding: 15px 0px 30px 30px !important;
+        margin-right: 0px !important;
     }
+    .our-student-success-new2 .testimonials-all-page-align-middle-left2{
+        padding: 40px 0px;
+    }
+    .cds--tabs .cds--tab--overflow-nav-button--previous{
+        top:36px !important;
+    }
+    .track-your-college-left.text-center.instagram-m{
+        margin-top: 50px;
+    }
+    .recent-acceptance-home-frame .react-multiple-carousel__arrow{
+        top: 57%;
+    }
+    .what-we-do-section-page .footer-top-map-img-button{
+        margin-top: 55px;
+    }
+    .track-your-college-left.mobile.none p{
+        margin: 55px 0px;
+    }
+    .Testimonials-home-middle.new-arrow .track-your-college-left p{
+            margin-top: 55px;
+    }
+    .heading-contact-middle.LIFE-AT-ATHENA{
+        padding: 70px 0px;
+    }
+    .heading-contact-middle p{
+        margin-top: 55px;
+    }
+    .team-top-frame-main.main-new .team-left-frame-one-right p br{
+        display: none;
+    }
+    .our-team-middle-section2 h4{
+        margin-bottom: 55px;
+    }
+    
+    .pmp-profile-page-middle-section.container.th-grade{
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .our-team-middle-section2-main {
+        margin-top: 30px;
+    }
+    .our-team-middle-section.about-athena.new{
+        margin-top: 20px;
+    }
+    .test-bor-img-cy .cds--tabs .cds--tabs__nav-item--selected img {
+        height: 80px !important;
+    }
+    .test-bor-img-cy .cds--tabs__nav-link img{
+        height: 80px !important;
+    }
+    .our-team-middle-section.about-athena.TOp{
+        margin-top: 20px;
+    }
+    .test-bor-img-cy .cds--tabs {
+        margin-top: 20px;
+    }
+    .Video-Testimonials-page-main .react-multi-carousel-list{
+        margin-top: 20px; 
+        margin-bottom: 70px;
+    }
+    .contact-us-top-section{
+        padding-top: 20px;
+    }
+    .contact-us-top-section-map-frame-mai {
+        margin-top: 55px;
+    }
+    .contact-us-top-section-map{
+        padding-top: 20px;
+    }
+    .instagram-page-scol.contactpage{
+        margin-bottom: 55px;
+    }
+    .about-the-program-new-add .Athena-Was-Establishedabout-athena-page{
+        margin-top: 20px;
+    }
+    .about-the-program-new-add .Athena-Was-Establishedabout-athena-page .heading-contact-middle.new-add p{
+        margin-top: 50px;
+    }
+    .about-the-program-new-add .Athena-Was-Establishedabout-athena-page .heading-contact-middle.new-add h5{
+        margin-bottom: 55px;
+    }
+    .about-the-program-new-add .track-your-college.bthgrade.about-the-program-impactful {
+        padding-bottom: 0px;
+    }
+    .student-journey-add .Testimonials-home-middle-right p{
+        padding: 55px 0px 35px 0px;
+    }
+    .student-journey-add .Testimonials-home-middle-right .track-your-college-left-link{
+        padding-bottom: 60px;
+    }
+    .student-journey-add .admission-to-your-dream-university-frame{
+        margin-top: 70px; 
+    }
+    .pmp-profile-page.profile-development-page.profile-development .pmp-profile-page-middle-section{
+        margin-top: 20px;
+    }
+    .pmp-profile-page.profile-development-page.profile-development .heading-contact-middle p{
+        margin: 55px 0px;
+    }
+    .pmp-profile-page.profile-development-page.profile-development .heading-contact-middle{
+        padding-bottom: 0px;
+    }
+    .pmp-profile-page.profile-development-page.profile-development .project-profile-development-frame.profile-development-page{
+        padding: 70px 0px;
+    }
+    .pmp-profile-page.profile-development-page.profile-development .admission-to-your-dream-university-frame{
+        margin-top: 0px;
+    }
+    .pmp-profile-page.profile-development-page.profile-development  .tab-pmp-profilr .accordion__item:last-child{
+        margin-bottom: 0px;
+    }
+    .profile-presentation-pageadd .pmp-profile-page-middle-section{
+         margin-top: 20px;
+    }
+    .profile-presentation-pageadd  .heading-contact-middle p.Our-experts{
+        margin-top: 55px;
+    }
+    .profile-presentation-pageadd  .tab-pmp-profilr .accordion__item {
+        margin-bottom: 50px;
+    }
+    .pmp-profile-page.how-to-apply-pageadd .track-your-college-left.text-center h3{
+        margin-top: 0px;
+    }
+    .pmp-profile-page.how-to-apply-pageadd .track-your-college-left p{
+        margin-bottom: 15px !important;
+    }
+    .pmp-profile-page.how-to-apply-pageadd .our-team-middle-section.about-athena.newnew {
+        margin-bottom: 70px;
+    }
+    .pmp-profile-page.how-to-apply-pageadd  .our-approach-page .our-approach-page-inner-frame:last-child {
+        margin-bottom: 0px;
+    }
+    .pmp-profile-page.how-to-apply-pageadd .our-program-how-to-apply .Academic-roadmap-main-frame:nth-child(3){
+        margin-top: 0px;
+    }
+    .grade-page-add .tab-pmp-profilr{
+        margin-top: 45px !important;
+    }
+    .grade-page-add .marginBottom {
+        margin-bottom: 0px;
+    }
+    .pmp-profile-page.in-the-news-add-page .marquee-container .marquee {
+        --duration: 15.375s !important;
+        margin-top: 50px;
+    }
+    .contact-us-top-section-map-frame:last-child{
+        margin-bottom: 0px;
+    }
+    .our-story-new-add  .track-your-college.admissions-page .track-your-college-left {
+        margin-top: 20px  !important;
+}
+.our-story-new-add .have-walked-so-far.new-add.desktop.mobileour-story.none{
+    padding-top: 20px;
+}
+.our-story-new-add  .tab-pmp-profilr{    margin-top: 55px !important;}
+.our-story-new-add .pmp-profile-page-middle-section.container.th-grade{
+margin-bottom: 0px;
+}
+.Our-Brand-Promise-what-we-do-frame-left.ne-fix.none.mobile{
+    margin-top: 70px;
+    display: inherit;
+}
+.Our-Brand-Promise-what-we-do-frame-left.ne-fix.desktop{
+    display: none;
+}
+.our-story-new-add .OUR-PHILOSOPHY-middle-main:last-child {
+    margin-bottom: 0px;
+}
+.student-journey.our-story .how-top-chose-a-oprtiom-middle-frame-middle h4{
+    margin-top: 40px;
+}
+.student-journey.our-story .how-top-chose-a-oprtiom-middle-frame-middle p{
+    margin-bottom: 20px;
+}
+.our-story-new-add .heading-contact-middle.new{
+    margin-top: 40px;
+}
+.our-story-new-add .footer-top-map-img-button{
+    margin-bottom: 55px !important;
+    margin-top: 25px;
+}
+.track-your-college-left.desktop.not h3{
+    margin-top: 0px !important;
+}
+.header-logo-mobile a{
+    height: 60px !important;
+    display: inline-block;
+}
 }
 
 @media all and (min-width:1600px) and (max-width:2400px) {

@@ -45,7 +45,7 @@ class OurStory extends React.Component {
     }
     render() {
         return (
-            <div className="pmp-profile-page our-team-page admissions-page admissions-us why-us">
+            <div className="pmp-profile-page our-team-page admissions-page admissions-us why-us our-story-new-add">
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>
@@ -306,7 +306,9 @@ class OurStory extends React.Component {
                         </div>
                     </div>
                 </section >
-
+                <div className="Our-Brand-Promise-what-we-do-frame-left ne-fix none mobile">
+                        <img src={PromiseOne} alt="" />
+                    </div>
                 <section className="Our-Brand-Promise-what-we-do-frame our-story-page new-add">
 
                     <div className="Our-Brand-Promise-what-we-do-frame-left-right">
@@ -353,7 +355,7 @@ class OurStory extends React.Component {
 
 
                     </div>
-                    <div className="Our-Brand-Promise-what-we-do-frame-left ne-fix">
+                    <div className="Our-Brand-Promise-what-we-do-frame-left ne-fix desktop">
                         <img src={PromiseOne} alt="" />
                     </div>
                 </section >
@@ -438,7 +440,7 @@ class OurStory extends React.Component {
 
                             <div className="project-profile-development-frame-right">
                                 <div className="project-profile-development-frame-righttwo">
-                                    <div className="heading-contact-middle">
+                                    <div className="heading-contact-middle new">
                                         <h3>RAHUL SUBRAMANIAM</h3>
                                         <h2>Princeton, 2011</h2>
                                         <p>

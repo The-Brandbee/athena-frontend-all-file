@@ -29,7 +29,7 @@ class BthGradeTen extends React.Component {
     }
     render() {
         return (
-            <div className="pmp-profile-page">
+            <div className="pmp-profile-page grade-page-add">
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

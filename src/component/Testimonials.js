@@ -76,7 +76,7 @@ class Testimonials extends React.Component {
                 <div className="banner-section MobileD none">
                     <img src={MobileTop} alt="" />
                 </div>
-                <section className="our-team-middle-section about-athena">
+                <section className="our-team-middle-section about-athena TOp">
                     <div className="pmp-profile-page-middle-section">
                         <div className="heading-contact-middle">
                             <h3>Student Testimonials</h3>

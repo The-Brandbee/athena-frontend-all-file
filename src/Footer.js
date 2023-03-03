@@ -49,7 +49,7 @@ export default class Footer extends Component {
                     <div className="middle-footer">
                       <h4>RESOURCES</h4>
                       <ul>
-                        <li> <Link to="/resources">Webinar & Workshop</Link></li>
+                        <li> <Link to="#">Webinar & Workshop</Link></li>
                         <li> <Link to="/admission-calendar">Admission Calendar</Link></li>
 
 

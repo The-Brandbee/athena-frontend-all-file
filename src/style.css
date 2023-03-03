@@ -78,6 +78,13 @@ p {
 .first-slide.second {
     position: relative;
 }
+header .header-logo{
+    margin-top: 0px;
+}
+header .header-logo a{
+    display: inline-block;
+    padding: 38px 0px 33px 0px;
+}
 
 .second-banner-changehover {
     position: absolute;
@@ -961,7 +968,7 @@ header .col-md-10 {
 }
 
 .marquee-container .marquee {
-    --duration: 59.375s !important;
+    --duration: 230.375s !important;
 }
 
 .track-your-college.home-page-new.man {
@@ -1657,7 +1664,7 @@ ul.event-home-top-list:last-child {
 .recent-acceptance-home-frame {
 
     background-color: #0c514f;
-    padding: 70px 0px;
+    padding: 70px 0px 100px 0px;
     margin-top: -6px;
 }
 
@@ -1759,7 +1766,17 @@ header .sticky .right-top-bar {
 }
 
 header .sticky .header-logo img {
-    width: 80px;
+    width: 100%;
+}
+header .sticky .header-logo {
+    margin-top: 0px;
+}
+header .sticky .header-logo a {
+    display: inline-block;
+    padding: 24px 0px 19px 0px;
+}
+.in-the-news-add-page .marquee-container .marquee {
+    --duration: 25.375s !important;
 }
 
 
@@ -6270,6 +6287,9 @@ header {
     height: 45px;
     padding: 10px 10px;
 }
+
+
+
 
 .Contact-form-middle-frame-box textarea {
     width: 100%;

@@ -54,7 +54,7 @@ class OurStudentSuccess extends React.Component {
                 <div className="banner-section MobileD none">
                     <img src={MobileTop} alt="" />
                 </div>
-                <section className="our-team-middle-section about-athena">
+                <section className="our-team-middle-section about-athena new">
                     <div className="pmp-profile-page-middle-section">
                         <div className='container'>
                             <div className="heading-contact-middle">
@@ -152,7 +152,7 @@ class OurStudentSuccess extends React.Component {
                                         </p>
                                     </div>
                                 </div>
-                                <div className="The-proud-accomplishments-frame-right-top-frame-bottom">
+                                <div className="The-proud-accomplishments-frame-right-top-frame-bottom new">
                                     <p>
                                         Ria sang "Omar Sharif" for Tony award-winning musical, "The Band's Visit". She won the second position in the American Protege International Vocal Competition '21. This achievement also led her to perform at Carnegie Hall.
                                     </p>
@@ -169,7 +169,7 @@ class OurStudentSuccess extends React.Component {
                     </div>
 
                 </div>
-                <section className="STUDENTACCOLADES-sectuon admissions-results-scholarships new">
+                <section className="STUDENTACCOLADES-sectuon admissions-results-scholarships new b">
                     <div className='container'>
                         <div className="STUDENTACCOLADES-sectuon-middle">
 

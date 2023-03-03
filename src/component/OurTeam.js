@@ -126,7 +126,7 @@ class OurTeam extends React.Component {
                 </div>
 
                 <div className="pmp-profile-page-middle-section container">
-                    <div className="heading-contact-middle">
+                    <div className="heading-contact-middle LIFE-AT-ATHENA">
                         <h3>LIFE AT ATHENA</h3>
                         <h2>Strategy and fun!</h2>
                         <p>
