@@ -6,7 +6,7 @@ const CountFive = () => {
     const [counterOn, setCounterOn] = useState(false);
     return (
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
-            {counterOn && <CountUp start={0} end={80} duration={5} delay={0} />}+
+            {counterOn && <CountUp start={0} end={80} duration={5} delay={0} />} +
         </ScrollTrigger>
     );
 };

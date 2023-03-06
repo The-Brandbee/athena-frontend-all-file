@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SliderIconNM from '../../img/slider--icon.png';
-import StudentThree1 from '../../img/homepagebanner-1.png';
+
 
 class SliderOne extends React.Component {
 
@@ -9,10 +9,10 @@ class SliderOne extends React.Component {
         return (
             <>
                 <div className='second-banner-changehover-right-img-inner one'>
-                    <img src={StudentThree1} alt="" />
+                    <img src={SliderIconNM} alt="" />
                     <div className='second-banner-changehover-right-img-cont'>
-                        <h4>Anvii Mishra</h4>
-                        <p>Johns Hopkins University, Batch of 2026</p>
+                        <h4>Ashish Mittal</h4>
+                        <p>University of Oxford, Batch of 24</p>
                     </div>
                 </div>
             </>
