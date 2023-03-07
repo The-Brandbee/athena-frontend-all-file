@@ -7,7 +7,8 @@ const MapGif = () => {
     const [counterOn, setCounterOn] = useState(false);
     return (
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
-            <div>
+            <div className='mapframe-inline'>
+                <div className='mapframe-inline-border'></div>
                 <img src={Map} alt="" />
             </div>
         </ScrollTrigger>

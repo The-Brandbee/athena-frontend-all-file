@@ -6,7 +6,7 @@ const CountNine = () => {
     const [counterOn, setCounterOn] = useState(false);
     return (
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)} >
-            {counterOn && <CountUp start={0} end={5} duration={5} delay={0} />} X
+            {counterOn && <CountUp start={0} end={5} duration={1} delay={0} />}x
         </ScrollTrigger>
     );
 };
