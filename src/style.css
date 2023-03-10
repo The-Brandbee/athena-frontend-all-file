@@ -970,6 +970,10 @@ header .col-md-10 {
 .marquee-container .marquee {
     --duration: 230.375s !important;
 }
+.our-result-home.nnn .marquee-container .marquee { 
+    --duration: 50.375s !important;
+
+}
 
 .track-your-college.home-page-new.man {
     padding-top: 0px;
