@@ -29,6 +29,7 @@ export default class slider extends Component {
         <Slider className='sliderTest' {...settings}>
           <div className='first-slide'>
             <div className='banner-image'>
+          
               <a target="_blank" href="https://calendly.com/athenaeducation/counseling-webinar">
                 <video className='desktop' width="100%" poster={BannerOne} playsInline
                   autoPlay

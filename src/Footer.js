@@ -50,9 +50,7 @@ export default class Footer extends Component {
                       <h4>RESOURCES</h4>
                       <ul>
                         <li> <Link to="#">Webinar & Workshop</Link></li>
-                        <li> <Link to="/admission-calendar">Admission Calendar</Link></li>
-
-
+                        <li> <Link to="#">Admission Calendar</Link></li> 
                         <li> <Link to="#">FAQs</Link></li>
                         <li> <Link to="/in-the-news">In The News</Link></li>
                         <li> <Link to="/blog">Blogs</Link></li>

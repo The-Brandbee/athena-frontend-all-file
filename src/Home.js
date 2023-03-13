@@ -124,9 +124,9 @@ export default class Home extends Component {
 					<title>  Athena Education  </title>
 				</Helmet>
 				<Slider />
-				<section className='recent-acceptance-home-frame home-new'>
+				<section className='recent-acceptance-home-frame home-new heading'>
 					<div className="container">
-						<h2>Our recent acceptances</h2>
+						<h1>Our recent acceptances</h1> 
 						<RecentHome />
 					</div>
 				</section>

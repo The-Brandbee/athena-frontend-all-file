@@ -6,7 +6,7 @@ class BlogList extends React.Component {
         return (
             <>
                 <div className="col-md-8">
-                    xxx
+                    
 
                 </div>
             </>

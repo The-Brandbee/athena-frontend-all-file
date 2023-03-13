@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f6114cc.css",
-    "main.js": "/static/js/main.71171bf5.js",
-    "static/media/atheena-video.mp4": "/static/media/atheena-video.cc6e167f9dbefa768dd0.mp4",
-    "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.4cd8b3a3d454ca2356f6.mp4",
+    "main.css": "/static/css/main.892a8988.css",
+    "main.js": "/static/js/main.6aa68d3c.js",
+    "static/media/atheena-video.mp4": "/static/media/atheena-video.a57b3d509a5381610bd5.mp4",
     "static/media/Delphi.mp4": "/static/media/Delphi.1898e89063c69b47befc.mp4",
+    "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.56d3eca67cd51f1c0d5d.mp4",
     "static/media/athena-masala.mp4": "/static/media/athena-masala.e3752fc4116ae857083c.mp4",
     "static/media/masala-gif-mobile.gif": "/static/media/masala-gif-mobile.3b751225e9208bb1ba9f.gif",
     "static/media/ikigai-gif-mobile.gif": "/static/media/ikigai-gif-mobile.ac22172261f99b5db8a4.gif",
@@ -349,11 +349,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.0f6114cc.css.map": "/static/css/main.0f6114cc.css.map",
-    "main.71171bf5.js.map": "/static/js/main.71171bf5.js.map"
+    "main.892a8988.css.map": "/static/css/main.892a8988.css.map",
+    "main.6aa68d3c.js.map": "/static/js/main.6aa68d3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f6114cc.css",
-    "static/js/main.71171bf5.js"
+    "static/css/main.892a8988.css",
+    "static/js/main.6aa68d3c.js"
   ]
 }

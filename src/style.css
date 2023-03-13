@@ -1696,6 +1696,14 @@ ul.event-home-top-list:last-child {
     line-height: 46px;
     text-align: center;
 }
+.recent-acceptance-home-frame h1 {
+    color: #fff;
+    font-family: CrimsonPro-ExtraLight;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 0px;   
+}
 
 .recent-home-number-main .number-recent-home h2 {
     font-family: Cinzel-Regular;
