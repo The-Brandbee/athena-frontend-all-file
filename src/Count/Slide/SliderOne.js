@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import SliderIconNM from '../../img/slider--icon.png';
-import StudentThree1 from '../../img/homepagebanner-1.png';
+import StudentThree1 from '../../img/homepagebanner-1-1.png';
 
 class SliderOne extends React.Component {
 

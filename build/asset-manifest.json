@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.892a8988.css",
-    "main.js": "/static/js/main.6aa68d3c.js",
+    "main.css": "/static/css/main.dff8de4f.css",
+    "main.js": "/static/js/main.b448a5f9.js",
     "static/media/atheena-video.mp4": "/static/media/atheena-video.a57b3d509a5381610bd5.mp4",
-    "static/media/Delphi.mp4": "/static/media/Delphi.1898e89063c69b47befc.mp4",
     "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.56d3eca67cd51f1c0d5d.mp4",
+    "static/media/Delphi.mp4": "/static/media/Delphi.239f5b4db5f19d8576e2.mp4",
     "static/media/athena-masala.mp4": "/static/media/athena-masala.e3752fc4116ae857083c.mp4",
     "static/media/masala-gif-mobile.gif": "/static/media/masala-gif-mobile.3b751225e9208bb1ba9f.gif",
     "static/media/ikigai-gif-mobile.gif": "/static/media/ikigai-gif-mobile.ac22172261f99b5db8a4.gif",
-    "static/media/map-video-new.gif": "/static/media/map-video-new.4497e6c59e40eb4f102c.gif",
     "static/media/MoneyG.gif": "/static/media/MoneyG.d2c6ad9a4bd360efd217.gif",
     "static/media/about-athena.jpg": "/static/media/about-athena.5be8b8390de63617cc41.jpg",
     "static/media/homepagebanner-1.png": "/static/media/homepagebanner-1.a76aa8214451810b5b92.png",
     "static/media/Mobile-footer-about-athena.jpg": "/static/media/Mobile-footer-about-athena.24dd4ac21faa370dcc5a.jpg",
     "static/media/homepagebanner-3.png": "/static/media/homepagebanner-3.1b97443ea2d084cad7bf.png",
     "static/media/student-journey.jpg": "/static/media/student-journey.30bdc15d4aeeea47a5c6.jpg",
+    "static/media/map-video-new.gif": "/static/media/map-video-new.05d451e0b8449deabfb4.gif",
     "static/media/homepagebanner-4.png": "/static/media/homepagebanner-4.6918512c5a1a5a17eb07.png",
     "static/media/Mobile-footer-in-the-news.jpg": "/static/media/Mobile-footer-in-the-news.84a2ad19bdc2c9a37d17.jpg",
     "static/media/Mobile-footer-why-us.jpg": "/static/media/Mobile-footer-why-us.43da5b6669d7eb31e276.jpg",
@@ -53,13 +53,17 @@
     "static/media/slider--icon2.png": "/static/media/slider--icon2.a75c9d21bd49404e75c7.png",
     "static/media/mobile-our-team.jpg": "/static/media/mobile-our-team.be46a98e812edc0566a9.jpg",
     "static/media/mobile-profile-presentation.jpg": "/static/media/mobile-profile-presentation.d01e4c5faf327300e6bc.jpg",
+    "static/media/homepagebanner-1-1.png": "/static/media/homepagebanner-1-1.4aa91e135960170c2fde.png",
     "static/media/about-athena-6.jpg": "/static/media/about-athena-6.cfdde60aa468086bce26.jpg",
     "static/media/4.png": "/static/media/4.41c78ed6f38542689560.png",
     "static/media/mobile-student-journey.jpg": "/static/media/mobile-student-journey.4285cd4901a4e3109253.jpg",
+    "static/media/homepagebanner-3-1.png": "/static/media/homepagebanner-3-1.a9c91fabf15173559c09.png",
     "static/media/Raleway-Medium.ttf": "/static/media/Raleway-Medium.639c5f66f0d9a8b2516e.ttf",
+    "static/media/homepagebanner-4-1.png": "/static/media/homepagebanner-4-1.6e81312668293855c5ab.png",
     "static/media/mobile-contact-us.jpg": "/static/media/mobile-contact-us.d5ea457b62a842809904.jpg",
     "static/media/mobile-our-story.jpg": "/static/media/mobile-our-story.3d38801713aeb0d66833.jpg",
     "static/media/In-the-news.jpg": "/static/media/In-the-news.af4d3ec4312f3d0168e5.jpg",
+    "static/media/homepagebanner-2-1.png": "/static/media/homepagebanner-2-1.a17efccdab7da16cc297.png",
     "static/media/mobile-12th.jpg": "/static/media/mobile-12th.8c773181e0e165db0995.jpg",
     "static/media/mobile-blog.jpg": "/static/media/mobile-blog.cd7f512416d4aa6ab018.jpg",
     "static/media/mobile-profile-development.jpg": "/static/media/mobile-profile-development.b35a3367d2d6e0296b47.jpg",
@@ -349,11 +353,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.892a8988.css.map": "/static/css/main.892a8988.css.map",
-    "main.6aa68d3c.js.map": "/static/js/main.6aa68d3c.js.map"
+    "main.dff8de4f.css.map": "/static/css/main.dff8de4f.css.map",
+    "main.b448a5f9.js.map": "/static/js/main.b448a5f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.892a8988.css",
-    "static/js/main.6aa68d3c.js"
+    "static/css/main.dff8de4f.css",
+    "static/js/main.b448a5f9.js"
   ]
 }
