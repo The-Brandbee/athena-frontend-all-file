@@ -1847,7 +1847,6 @@ class WhyUs extends React.Component {
                     </div>
                 </section>
                 <section className="why-us-video-frame video-add">
-
                     <iframe width="100%" height="600" src="https://www.youtube.com/embed/o-c-QWNEr2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section>
                 <section className='why-us-college-application track-your-college gif'>

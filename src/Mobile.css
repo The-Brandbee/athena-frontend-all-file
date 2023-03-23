@@ -2422,6 +2422,76 @@ margin-bottom: 0px;
     height: 60px !important;
     display: inline-block;
 }
+.admissions-tab-frame .pmp-profile-page-middle-section.container.th-grade .tab-pmp-profilr .accordion__button {
+    padding: 25px 80px;
+}
+.admissions-page .heading-contact-middle img{
+    margin-top: 0px;
+}
+.OUAC-Application-frame {
+    display: inline-block;
+}
+.OUAC-Application-frame .OUAC-Application-frame-left {
+    width: 100%;
+}
+.OUAC-Application-frame .OUAC-Application-frame-right {
+    width: 100%;
+    text-align: center;
+}
+.Ontario-region-colleges-middele-frame-two {
+    width: 46%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.admissions-tab-frame.track-your-college.collage-type.admissions-tab-frame-new-add.topm{
+    padding-bottom: 0px;
+}
+.heading-contact-middle .tab-section-inadmissions-top-colleges ul li{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.tab-section-inadmissions-top-colleges .react-tabs__tab--selected::after{
+    display: none;
+}
+.tab-section-image-frame{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.tab-section-image-frame .tab-section-image-frame-left {
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+}
+.tab-section-inadmissions-top-colleges {
+    overflow: hidden;
+}
+.admissions-page.career-page-main .Team-Culture-frame-middle{
+    display: inline-block;
+    width: 100%;
+}
+.admissions-page.career-page-main .Team-Culture-frame-middle-left {
+    width: 100%;
+}
+.admissions-page.career-page-main .Team-Culture-frame-middle-right{
+    width: 100%;
+}
+.admissions-page.career-page-main .Team-Culture-frame-middle-left img{
+margin-bottom: 20px;
+}
+.video-frame-career{
+    margin-top: 55px;
+}
+.Our-Impact-middle-frame{
+    display: inline-block;
+}
+.Our-Impact-middle-frame .Our-Impact-middle-frame-left {
+    width: 100%;
+}
+.admissions-page.career-page-main .footer-top-map-img-button-link{
+    margin-top: 40px;
+} 
 }
 
 @media all and (min-width:1600px) and (max-width:2400px) {

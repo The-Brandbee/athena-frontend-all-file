@@ -12,8 +12,20 @@ import PromiseOne from '../img/what-we-do-1.jpg';
 import AdmissionsTwo from '../img/admissions2.png';
 import AdmissionsNew from '../img/admissions.png';
 
+import Icon1 from '../img/UK-icon/1.svg';
+import Icon2 from '../img/UK-icon/2.svg';
+import Icon3 from '../img/UK-icon/3.svg';
+import Icon4 from '../img/UK-icon/4.svg';
+import Icon5 from '../img/UK-icon/5.svg';
+import Icon6 from '../img/UK-icon/6.svg';
+import Icon7 from '../img/UK-icon/7.svg';
+import Icon8 from '../img/UK-icon/8.svg';
 
-import BannerTwo from '../img/banner-2.jpg';
+import MobileFooter from '../img/mobilebanner/Mobile-footer-UK.jpg';
+
+
+import MobileTop from '../img/mobilebanner/Mobile-UK.jpg';
+import BannerTwo from '../img/banner/UK.jpg';
 import {
     Accordion,
     AccordionItem,
@@ -32,7 +44,7 @@ class Admissions extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page our-team-page admissions-page">
-                <div className="banner-section">
+                <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>
                             <img src={BannerTwo} alt="" />
@@ -42,10 +54,10 @@ class Admissions extends React.Component {
                                 <div className='second-banner-changehover-main'>
                                     <div className='second-banner-changehover-left'>
                                         <div className='second-banner-changehover-left2'>
-                                            <h3>80% of our students </h3>
-                                            <h2>have gotten into top 10<br /> universities of the UK.</h2>
-                                            <p>You can be the next!</p>
-                                        </div>
+                                            <h3>80% OF OUR STUDENTS</h3>
+                                            <h2>have gotten into top <br /> UK universities.</h2>
+                                            <p>You could be next!</p>
+                                        </div> 
                                     </div>
                                     <div className='second-banner-changehover-right'>
                                     </div>
@@ -54,15 +66,17 @@ class Admissions extends React.Component {
                         </div>
                     </div>
                 </div>
+                <div className="banner-section MobileD none">
+                    <img src={MobileTop} alt="" />
+                </div>
                 <section className='track-your-college admissions-page'>
                     <div className="container">
                         <div className='row'>
                             <div className='col-md-7'>
                                 <div className='track-your-college-left'>
-                                    <h3>Step-wise admission process</h3>
-                                    <h2>Your next step to the future<br /> can start from here</h2>
-                                    <p>The application you submit to any college should be, precise, authentic, yet strategic. This is the first way to communicate, through which the admission counselors at different universities will know about you. Therefore, we ensure that every detail filled in the application is immaculate. </p>
-
+                                    <h3>STEPWISE ADMISSIONS PROCESS</h3>
+                                    <h2>Your ideal future begins here</h2>
+                                    <p>Each application component must be an authentic reflection of your true human brand. As you craft your application, remember that your audience seeks students who are leaders, innovators, and activists in their community.</p>
                                 </div>
                             </div>
                             <div className='col-md-5'>
@@ -75,21 +89,24 @@ class Admissions extends React.Component {
                 </section>
                 <div className="pmp-profile-page-middle-section container">
                     <div className="heading-contact-middle">
-                        <h2>Top things the admission counsel will <br />keep in mind reviewing your application</h2>
+                        <h2>Applicant Evaluation Criteria
+</h2>
                         <img src={AdmissionsTwo} />
                     </div>
 
                 </div>
 
-                <section className="admissions-tab-frame">
+                <section className="admissions-tab-frame admissions-tab-frame-new-add">
                     <div className="container">
                         <div className="admissions-tab-frame-middle-top">
                             <div className="admissions-tab-frame-middle">
                                 <div className="heading-contact-middle">
-                                    <h2>Step-wise application process</h2>
-                                    <p>Here's a general overview of the application process for applying to universities in the UK. Even though you can apply through the native application of the colleges, the most convenient way can be through the UCAS platform. Universities and Colleges Admissions Service is an independent charity and the UK's shared admissions service for higher education.
+                                    <h2>Stepwise application process</h2>
+                                    <p>
+                                    Here's a general overview of the UK undergrad application process. You will submit all your materials through the UCAS platform.
+                                    Navigating through the UCAS interface is simple, and mostly all the other native apps also have a similar interface.
                                     </p>
-                                    <p>Navigating through the UCAS interface is simple, and mostly all the other native apps also have a similar interface.</p>
+                                   
                                 </div>
                             </div>
                             <div className="pmp-profile-page-middle-section container th-grade">
@@ -100,7 +117,10 @@ class Admissions extends React.Component {
                                         <AccordionItem>
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    Register with UCAS
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon1} className="Desktop-icon" /> 
+                                                </div>
+                                                Register with the UCAS Hub
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
@@ -108,8 +128,7 @@ class Admissions extends React.Component {
 
                                                     <div className="th-grade-tab-open-frame-right">
                                                         <p>
-                                                            Registering on the UCAS Hub is easy, you simply have to add in your basic details, create new login credentials, complete your registration process, select “create account” and it is done.
-                                                        </p>
+                                                        To register on UCAS, you will provide your basic details, create login credentials, and activate your account.  </p>
 
                                                     </div>
                                                 </div>
@@ -118,7 +137,10 @@ class Admissions extends React.Component {
                                         <AccordionItem>
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    Complete your details
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon2} className="Desktop-icon" /> 
+                                                </div>
+                                                Complete your details
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
@@ -126,7 +148,91 @@ class Admissions extends React.Component {
 
                                                     <div className="th-grade-tab-open-frame-right">
                                                         <p>
-                                                            Once you have created the account, you can go to the dashboard where you will see a tile named ‘Your application’ and click ‘Start’ to begin your application. This section mainly asks for your basic details and all mandatory fields have to be filled in and cannot be skipped. Make sure all the details are authentic and match your documents.
+                                                        Once you have created the account, you can go to the dashboard where you will see a tile named 'Your application' and click 'Start' to begin your application.   </p>
+                                                    </div>
+                                                </div>
+                                            </AccordionItemPanel>
+                                        </AccordionItem>
+                                        <AccordionItem>
+                                            <AccordionItemHeading>
+                                                <AccordionItemButton>
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon3} className="Desktop-icon" /> 
+                                                </div>
+                                                Add your education history
+                                                </AccordionItemButton>
+                                            </AccordionItemHeading>
+                                            <AccordionItemPanel>
+                                                <div className="th-grade-tab-open-frame">
+
+                                                    <div className="th-grade-tab-open-frame-right">
+                                                        <p>
+                                                        All your qualifications from secondary education onwards have to be entered in this section.
+                                                        </p>
+                                                        <p>
+                                                        You need to provide your educational qualifications even if you are awaiting the results. However, you will have to share the result with your chosen university or college when you get them.
+                                                        </p>  
+                                                    </div>
+                                                </div>
+                                            </AccordionItemPanel>
+                                        </AccordionItem>
+                                        <AccordionItem>
+                                            <AccordionItemHeading>
+                                                <AccordionItemButton>
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon4} className="Desktop-icon" /> 
+                                                </div>
+                                                Complete your employment history
+                                                </AccordionItemButton>
+                                            </AccordionItemHeading>
+                                            <AccordionItemPanel>
+                                                <div className="th-grade-tab-open-frame">
+
+                                                    <div className="th-grade-tab-open-frame-right">
+                                                        <p>
+                                                        In this section, you can add all your work experiences, whether you have engaged in full-time or part-time jobs. Fill in the name and address of the companies you worked at, as well as your your job description and start/finish dates. </p>
+                                                        <p>
+                                                        You can add up to five experiences, however, any volunteer, unpaid or social work should not be included in this section. If you do not have any paid work experience, you can leave this section blank and mark it as completed. </p>
+                                                    </div>
+                                                </div> 
+                                            </AccordionItemPanel>
+                                        </AccordionItem>
+                                        <AccordionItem>
+                                            <AccordionItemHeading>
+                                                <AccordionItemButton>
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon5} className="Desktop-icon" /> 
+                                                </div>
+                                                Select your courses
+                                                </AccordionItemButton>
+                                            </AccordionItemHeading>
+                                            <AccordionItemPanel>
+                                                <div className="th-grade-tab-open-frame">
+
+                                                    <div className="th-grade-tab-open-frame-right">
+                                                        <p>
+                                                        In this section, you can add your course choices and add up to five courses. You can select the course of any preference for different universities.</p>
+                                                         </div>
+                                                </div>
+                                            </AccordionItemPanel>
+                                        </AccordionItem>
+                                        <AccordionItem>
+                                            <AccordionItemHeading>
+                                                <AccordionItemButton>
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon6} className="Desktop-icon" /> 
+                                                </div>
+                                                Write a personal statement
+                                                </AccordionItemButton>
+                                            </AccordionItemHeading>
+                                            <AccordionItemPanel>
+                                                <div className="th-grade-tab-open-frame">
+
+                                                    <div className="th-grade-tab-open-frame-right">
+                                                        <p>
+                                                        This is one of the most important components of your application. This is the area where you can show your informed enthusiasm for your subject, evidenced by various academic experiences through which you demonstrate competence in your field. Thus, you can highlight how you represent an excellent addition to any college campus. </p>
+                                                        <p>
+                                                        Your personal statement must be between 1,000 and 4,000 characters long.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -135,79 +241,11 @@ class Admissions extends React.Component {
                                         <AccordionItem>
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    Add your education history
-                                                </AccordionItemButton>
-                                            </AccordionItemHeading>
-                                            <AccordionItemPanel>
-                                                <div className="th-grade-tab-open-frame">
-
-                                                    <div className="th-grade-tab-open-frame-right">
-                                                        <p>
-                                                            All your qualifications from secondary education onwards have to be entered in this section.
-                                                        </p>
-                                                        <p>You need to add in the details of the educational qualification even if you are awaiting the results. However, you will have to share the result with your chosen university or college when you get them.</p>
-                                                    </div>
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon7} className="Desktop-icon" /> 
                                                 </div>
-                                            </AccordionItemPanel>
-                                        </AccordionItem>
-                                        <AccordionItem>
-                                            <AccordionItemHeading>
-                                                <AccordionItemButton>
-                                                    Complete your employment history
-                                                </AccordionItemButton>
-                                            </AccordionItemHeading>
-                                            <AccordionItemPanel>
-                                                <div className="th-grade-tab-open-frame">
+                                                Submit your application
 
-                                                    <div className="th-grade-tab-open-frame-right">
-                                                        <p>
-                                                            In this section you can add all your work experience if you have taken up full-time or part-time jobs. Fill in the name and address of the companies you have worked in, and add your job description and start/finish dates.
-                                                        </p>
-                                                        <p>You can add up to 5 experiences, however, any volunteer, unpaid or social work should not be included in this section. If you do not have any paid work experience, you can leave this section blank and mark it as completed. </p>
-                                                    </div>
-                                                </div>
-                                            </AccordionItemPanel>
-                                        </AccordionItem>
-                                        <AccordionItem>
-                                            <AccordionItemHeading>
-                                                <AccordionItemButton>
-                                                    Select your course choices
-                                                </AccordionItemButton>
-                                            </AccordionItemHeading>
-                                            <AccordionItemPanel>
-                                                <div className="th-grade-tab-open-frame">
-
-                                                    <div className="th-grade-tab-open-frame-right">
-                                                        <p>
-                                                            In this section, you can add your course choices and add up to five courses. You can select the course of any preference for different universities.
-                                                        </p>
-                                                        <p>The colleges or universities do not have access to where else you have applied and which courses you have chosen.</p>
-                                                    </div>
-                                                </div>
-                                            </AccordionItemPanel>
-                                        </AccordionItem>
-                                        <AccordionItem>
-                                            <AccordionItemHeading>
-                                                <AccordionItemButton>
-                                                    Write a personal statement
-                                                </AccordionItemButton>
-                                            </AccordionItemHeading>
-                                            <AccordionItemPanel>
-                                                <div className="th-grade-tab-open-frame">
-
-                                                    <div className="th-grade-tab-open-frame-right">
-                                                        <p>
-                                                            This is one of the most important sections of your application. This is the area where you can show your passion for getting admission to that college, what skills and experiences you have, and how you can be the best fit for them.
-                                                        </p>
-                                                        <p>Your personal statement has to be at least 1,000 characters long and can go up to 4,000 characters or 47 lines, whichever comes first.</p>
-                                                    </div>
-                                                </div>
-                                            </AccordionItemPanel>
-                                        </AccordionItem>
-                                        <AccordionItem>
-                                            <AccordionItemHeading>
-                                                <AccordionItemButton>
-                                                    Submit your application
 
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
@@ -216,9 +254,9 @@ class Admissions extends React.Component {
 
                                                     <div className="th-grade-tab-open-frame-right">
                                                         <p>
-                                                            Before submitting your application, review it thoroughly. Make sure you have not missed out on any information and most importantly, ensure that all the details filled are authentic and backed by documents.
-                                                        </p>
-                                                        <p>Check the box of ‘Read and agree declaration’. This will allow the portal to process your application and share it with the colleges/universities you have shortlisted.  </p>
+                                                        Before submitting your application, review it thoroughly. Make sure you haven't missed any information and most importantly, ensure that all the details filled are authentic and backed by documents.</p>
+                                                        <p>
+                                                        Check the Read and Agree Declaration. This allows the portal to process your application and share it with the institutions. </p>
                                                     </div>
                                                 </div>
                                             </AccordionItemPanel>
@@ -227,7 +265,10 @@ class Admissions extends React.Component {
                                         <AccordionItem>
                                             <AccordionItemHeading>
                                                 <AccordionItemButton>
-                                                    Recommenders and LORs
+                                                <div className="icon-middle-tab-image">
+                                                  <img src={Icon8} className="Desktop-icon" /> 
+                                                </div>
+                                                Recommenders and LORs
                                                 </AccordionItemButton>
                                             </AccordionItemHeading>
                                             <AccordionItemPanel>
@@ -235,9 +276,8 @@ class Admissions extends React.Component {
 
                                                     <div className="th-grade-tab-open-frame-right">
                                                         <p>
-                                                            Your application cannot be submitted with the recommendation or LORs from your teacher, advisor, or professional who knows you academically and write about you. Go for quality, diversity, and recency in LORs.
+                                                             Your application cannot be submitted with the recommendation or LORs from your teacher, counselor, or professional who can testify to your character. Always focus on quality, diversity, and recency in LORs.
                                                         </p>
-                                                        <p>Think of it as a legal case you are presenting your argument, where every bit is backed by supporting documents and evidence. </p>
                                                     </div>
                                                 </div>
                                             </AccordionItemPanel>
@@ -251,14 +291,14 @@ class Admissions extends React.Component {
 
                                 </div>
                                 <div className="ad-last-line">
-                                    <p>Your entire transcript will go to the universities only after a thorough analysis by<br /> your counselors.</p>
+                                    <p>Note: to apply to Oxford and Cambridge, you will need to register for various <br/>examinations based on your course</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section >
 
-                <section className="how-top-apply-page-last-student-section our-student-success">
+                <section className="how-top-apply-page-last-student-section our-student-success footer-banner-bottom-new">
                     <img src={Students} alt="" />
                     <div className="how-top-apply-page-last-student-section-inner-main">
                         <div className="container">
@@ -270,15 +310,19 @@ class Admissions extends React.Component {
 
                                     <div className="how-top-apply-page-last-student-section-inner-border"></div>
                                     <div className='footer-top-map-img-button'>
-                                        <a target="_blank" className='footer-top-map-img-button-link' href='https://calendly.com/athenaeducation/counseling-webinar'> Book a Consultation session <span><img src={ClaOne} className="normal" alt="" /><img src={ClaTwo} className="normal-ho" alt="" /></span></a>
+                                        <a target="_blank" className='footer-top-map-img-button-link' href='https://calendly.com/athenaeducation/counseling-webinar'> Book a Consultation <span><img src={ClaOne} className="normal" alt="" /><img src={ClaTwo} className="normal-ho" alt="" /></span></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
-            </div >
+                <div className="Mobile footer-banner none">
+                    <a target="_blank" href='https://calendly.com/athenaeducation/counseling-webinar'>
+                        <img src={MobileFooter} alt="" />
+                    </a>
+                </div>
+            </div>
         );
     }
 }

@@ -1682,7 +1682,9 @@ ul.event-home-top-list:last-child {
     color: #fff;
 }
 
-
+.admissions-tab-frame.track-your-college.collage-type{
+    margin-top: 0px;
+}
 
 .slider-banner .slick-prev {
     left: 2%;
@@ -3714,7 +3716,23 @@ header .sticky .header-logo a {
     margin-bottom: 25px;
 }
 
-.Ontario-region-colleges-middele-frame img {}
+.Ontario-region-colleges-middele-frame img {
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    margin: 0 auto;
+    display: table;
+}
+.admissions-tab-frame-new-add .accordion__button::after{
+    background: transparent !important;
+}
+.admissions-tab-frame-new-add .accordion__button{
+    position: relative;
+}
+.admissions-tab-frame-new-add .icon-middle-tab-image img{
+    width: 30px;
+    position: absolute;
+    left: 30px;
+    top: 27px;
+}
 
 .ad-last-line-admissions-canada p {
     font-family: LeagueSpartan-SemiBold;
@@ -6620,4 +6638,93 @@ header .col-md-2.fixmenu a:hover {
 
 .blog-rect-post ul:nth-child(3) {
     display: inherit;
+}
+
+/* career page */
+.track-your-college-left-link.career-page{
+    text-align: center;
+}
+.Our-Impact-middle-frame{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 70px;
+}
+.Team-Culture-frame-middle{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+}
+.Team-Culture-frame-middle-left{
+    width: 30%;
+}
+.Team-Culture-frame-middle-left img{
+    width: 100%;
+}
+.Team-Culture-frame-middle-right{
+   width: 65%; 
+}
+.Team-Culture-frame-middle-right h4{
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 19px;
+    margin-top:0px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.Team-Culture-frame-middle-right p:last-child{
+    margin-bottom: 0px;
+}
+.Our-Impact-middle-frame .Our-Impact-middle-frame-left{
+    width: 30%;
+}
+.Our-Impact-middle-frame .Our-Impact-middle-frame-left img{
+    width: 60px;
+}
+.Our-Impact-middle-frame .Our-Impact-middle-frame-left h4{
+    font-family: LeagueSpartan-Bold;
+    color: #107869;
+    font-size: 19px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.project-profile-development-frame.what-we-do.about-athena-new.career{
+    padding-bottom: 0px;
+}
+.project-profile-development-frame.what-we-do.about-athena-new.career .heading-contact-middle p{
+    margin-bottom: 23px;
+}
+.and-new{
+    text-transform: lowercase;
+    color: #000;
+    font-family: LeagueSpartan-Regular;
+}
+.ad-last-line-admissions-canada{
+    margin-top: 50px;
+}
+.Undergraduate-Admissions-frame-middle-number ul.Important-dates.Important-dates-new  li::marker {
+    font-size: 0px;
+}
+.Undergraduate-Admissions-frame-middle-number ul.Important-dates.Important-dates-new  li::before {
+    list-style-type: circle;
+    content: "\2022";
+}
+
+.project-profile-development-frame-left.career-page .project-profile-development-frame-left-frame img:nth-child(2){
+    margin-top: 20px;
+}
+.tab-section-inadmissions-top-colleges{
+    position: relative;
+}
+.Source-US-News{
+    position: absolute;
+    right: 80px;
+    bottom: 10px;
+}
+.Source-US-News p{
+    color: #107869;
+    font-family: LeagueSpartan-Bold;
+    font-size: 16px;
 }

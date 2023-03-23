@@ -40,6 +40,7 @@ import BlogDetail from "./component/BlogDetail";
 import Testimonials from "./component/Testimonials";
 import Contact from "./component/Contact";
 import Resources from "./component/Resources";
+import Career from "./component/Career";
 
 export default class App extends Component {
   render() {
@@ -78,6 +79,7 @@ export default class App extends Component {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/career" element={<Career />} />
         </Routes>
         <Footer />
       </div >

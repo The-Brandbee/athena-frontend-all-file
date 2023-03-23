@@ -50,8 +50,7 @@ export default class Footer extends Component {
                       <h4>RESOURCES</h4>
                       <ul>
                         <li> <Link to="#">Webinar & Workshop</Link></li>
-                        <li> <Link to="#">Admission Calendar</Link></li> 
-                        <li> <Link to="#">FAQs</Link></li>
+                        <li> <Link to="/admission-calendar">Admission Calendar</Link></li> 
                         <li> <Link to="/in-the-news">In The News</Link></li>
                         <li> <Link to="/blog">Blogs</Link></li>
                       </ul>
@@ -67,9 +66,9 @@ export default class Footer extends Component {
                         </a></li>
 
                         <li><Link to="/testimonials">Testimonials</Link></li>
-                        <li>  <a target="_blank" href="https://boards.greenhouse.io/athenaeducation">
+                        <li>  <Link  to="/career">
                           Careers
-                        </a></li>
+                        </Link></li>
                         <li> <Link to="/contact">Contact Us</Link></li>
                       </ul>
                     </div>
