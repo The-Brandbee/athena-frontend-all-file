@@ -2,9 +2,9 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import MobileMenu from "./MobileMenu";
 import Logo from './img/logo-new.png';
-import ApproachOne1 from './img/menu1.jpg';
-import ApproachOne2 from './img/menu2.jpg';
-import ApproachOne3 from './img/menu3.jpg';
+import ApproachOne1 from './img/Personalization-menu.png';
+import ApproachOne2 from './img/Admissions-menu.png';
+import ApproachOne3 from './img/Process-orientation-menu.png';
 import Sticky from 'react-sticky-el';
 
 class Navbar extends React.Component {

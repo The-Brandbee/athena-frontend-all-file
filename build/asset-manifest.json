@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.804003cd.css",
-    "main.js": "/static/js/main.a433f672.js",
+    "main.js": "/static/js/main.ac4d603b.js",
     "static/media/atheena-video.mp4": "/static/media/atheena-video.a57b3d509a5381610bd5.mp4",
     "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.56d3eca67cd51f1c0d5d.mp4",
     "static/media/Delphi.mp4": "/static/media/Delphi.239f5b4db5f19d8576e2.mp4",
@@ -102,6 +102,7 @@
     "static/media/mobile-knowledge-center.jpg": "/static/media/mobile-knowledge-center.5c3bad43328cef42e35f.jpg",
     "static/media/mobile-10th.jpg": "/static/media/mobile-10th.540ea1879b46b9b1a34c.jpg",
     "static/media/11th.jpg": "/static/media/11th.9234672194ee40631851.jpg",
+    "static/media/Personalization-menu.png": "/static/media/Personalization-menu.ffbd91936e76b35373dc.png",
     "static/media/6.png": "/static/media/6.396d3582477a59228b73.png",
     "static/media/blog.jpg": "/static/media/blog.6b3dc5f1fe45026b26cd.jpg",
     "static/media/15.png": "/static/media/15.b9767378d00993a7b781.png",
@@ -117,6 +118,7 @@
     "static/media/mobile-in-the-news.jpg": "/static/media/mobile-in-the-news.eb080db76787d8c61427.jpg",
     "static/media/7.png": "/static/media/7.e3b193a191f988476f4c.png",
     "static/media/9.png": "/static/media/9.05d91ef6ca16ee4d3698.png",
+    "static/media/Admissions-menu.png": "/static/media/Admissions-menu.16abc3e20de9e30863f7.png",
     "static/media/3.png": "/static/media/3.cbb65bb706f7aa08afef.png",
     "static/media/22.png": "/static/media/22.c16ee0fa9f31ad5a1a77.png",
     "static/media/14.png": "/static/media/14.a6b6260031dc38215400.png",
@@ -126,6 +128,7 @@
     "static/media/banner-2.jpg": "/static/media/banner-2.162106d849a30c032205.jpg",
     "static/media/Cinzel-Regular.ttf": "/static/media/Cinzel-Regular.6f33f01382c3d24eecb3.ttf",
     "static/media/13.png": "/static/media/13.e9d91da4f6139b79f97e.png",
+    "static/media/Process-orientation-menu.png": "/static/media/Process-orientation-menu.4a1b518dadddcad29d5a.png",
     "static/media/Choose-5.jpg": "/static/media/Choose-5.48383c0db961489df69f.jpg",
     "static/media/do-2.png": "/static/media/do-2.1f3e3f83ffe1996372d3.png",
     "static/media/do-3.png": "/static/media/do-3.cabf68b01066ce6f7519.png",
@@ -168,7 +171,6 @@
     "static/media/box 4.jpg": "/static/media/box 4.6fd0d244fb5741b50c90.jpg",
     "static/media/Our-Approach-3.png": "/static/media/Our-Approach-3.53a42f3e2d4523d5204c.png",
     "static/media/21.png": "/static/media/21.18573e52007fe436a1bc.png",
-    "static/media/menu3.jpg": "/static/media/menu3.3f3e878edcd2807eea3f.jpg",
     "static/media/profile-development1.jpg": "/static/media/profile-development1.ee8ac59352139471f0dc.jpg",
     "static/media/about-athena-10.jpg": "/static/media/about-athena-10.2968ce81a2b810537d6c.jpg",
     "static/media/box 3.jpg": "/static/media/box 3.6f426823a94240307e4a.jpg",
@@ -180,7 +182,6 @@
     "static/media/founders-office-1.png": "/static/media/founders-office-1.57be75842b977feb26a4.png",
     "static/media/Our-Approach-2.png": "/static/media/Our-Approach-2.a9c9d964c957dee59c24.png",
     "static/media/our-story-10.jpg": "/static/media/our-story-10.ea5b0b4fda50caca4703.jpg",
-    "static/media/menu1.jpg": "/static/media/menu1.31c68557882a05e1e1c6.jpg",
     "static/media/students-banner-6.jpg": "/static/media/students-banner-6.c8be1b4dd82570efb087.jpg",
     "static/media/admissions.png": "/static/media/admissions.c04d602da9e0be574e30.png",
     "static/media/our-student-success-3.jpg": "/static/media/our-student-success-3.6f14f1a53e08e82de417.jpg",
@@ -210,7 +211,6 @@
     "static/media/athena knowledge centre 6.png": "/static/media/athena knowledge centre 6.1e071df2e4f2317bbd15.png",
     "static/media/Growth-7.png": "/static/media/Growth-7.c155a3dce829e720b65d.png",
     "static/media/athena creative team 2.png": "/static/media/athena creative team 2.c71fff2b835df2992d9c.png",
-    "static/media/menu2.jpg": "/static/media/menu2.564807e32fd7a403e414.jpg",
     "static/media/founders-office-4.png": "/static/media/founders-office-4.3a89fa892d4d4540fbea.png",
     "static/media/athena consulting centre 7.png": "/static/media/athena consulting centre 7.8d9812822775382567b5.png",
     "static/media/athena knowledge centre 5.png": "/static/media/athena knowledge centre 5.ab3ec6a9ad5285c9760b.png",
@@ -396,10 +396,10 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.804003cd.css.map": "/static/css/main.804003cd.css.map",
-    "main.a433f672.js.map": "/static/js/main.a433f672.js.map"
+    "main.ac4d603b.js.map": "/static/js/main.ac4d603b.js.map"
   },
   "entrypoints": [
     "static/css/main.804003cd.css",
-    "static/js/main.a433f672.js"
+    "static/js/main.ac4d603b.js"
   ]
 }
