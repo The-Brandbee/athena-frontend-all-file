@@ -140,8 +140,8 @@ class MobileMenu extends React.Component {
                   </AccordionItem>
 
                   <AccordionItem>
-                    <a target="_blank" href="https://boards.greenhouse.io/athenaeducation"><AccordionItemHeading>
-                      <AccordionItemButton>
+                    <a  href="/career"><AccordionItemHeading>
+                      <AccordionItemButton> 
                         Careers
                       </AccordionItemButton>
                     </AccordionItemHeading>
