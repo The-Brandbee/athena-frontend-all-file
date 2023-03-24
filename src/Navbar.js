@@ -42,7 +42,7 @@ class Navbar extends React.Component {
         <header>
           <Sticky>
             <div className="container">
-              <div className="row desktop">
+              <div className="row desktop ">
                 <div className="col-md-2">
                   <div className="header-logo">
                     <Link to="/">
