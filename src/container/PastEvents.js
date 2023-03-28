@@ -1,145 +1,68 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import EventTwo from '../img/event2.jpg';
-import { Link } from "react-router-dom";
 import 'react-ig-feed/dist/index.css'
 import Play from '../img/play.png';
+import Fancybox from "./fancybox.js"; 
 
-export default class PastEvents extends Component {
-    responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
-            items: 1,
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 1,
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2,
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 2,
-        },
-    };
-    render() {
+const PastEvents = () => {
+    
+    const [posts, setPosts] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [postsPerPage] = useState(4);
 
-        return (
-            <div>
+    useEffect(() => {
+        const fetchPosts = async () => {
+            setLoading(true);
+            const res = await axios.get('https://delos.athenaeducation.co.in/api/eventsbanner/');
+            setPosts(res.data);
+            setLoading(false);
+        };
 
-                <Carousel responsive={this.responsive}>
+        fetchPosts();
+    }, []);
 
+    // Get current posts
+    const indexOfLastPost = currentPage * postsPerPage;
+    const indexOfFirstPost = indexOfLastPost - postsPerPage;
+    const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
-                    <div>
-                        <Link to="">
+    // Change page
+    const paginate = pageNumber => setCurrentPage(pageNumber);
+    
+    return (
+        <div className="col-md-12">
+   
+            {
+                posts.map(post => (
+                    <div key={post.id} > 
+                        <Fancybox options={{ dragToClose: false }}>
+                                <a data-fancybox="gallery" href={post.url}>
                             <div className='Past-Events-middle-middle-frame'>
                                 <div className='Past-Events-middle-middle-frame-left'>
-                                    <img src={EventTwo} />
+                                    <img src={"https://delos.athenaeducation.co.in/" + post.image} />
                                 </div>
                                 <div className='Past-Events-middle-middle-frame-middle'>
                                     <div className='Past-Events-middle-middle-frame-middle-cont'>
-                                        <h4>What’s the whole fuss about profile building?</h4>
-                                        <p><span>Speaker :</span> Name of the speaker</p>
+                                        <h4>{post.heading}</h4>
+                                        <p><span>Speaker :</span> {post.description}</p>
                                     </div>
                                 </div>
                                 <div className='Past-Events-middle-middle-frame-right'>
                                     <img src={Play} />
                                 </div>
                             </div>
-                        </Link>
-                        <Link to="">
-                            <div className='Past-Events-middle-middle-frame'>
-                                <div className='Past-Events-middle-middle-frame-left'>
-                                    <img src={EventTwo} />
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-middle'>
-                                    <div className='Past-Events-middle-middle-frame-middle-cont'>
-                                        <h4>What’s the whole fuss about profile building?</h4>
-                                        <p><span>Speaker :</span> Name of the speaker</p>
-                                    </div>
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-right'>
-                                    <img src={Play} />
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="">
-                            <div className='Past-Events-middle-middle-frame'>
-                                <div className='Past-Events-middle-middle-frame-left'>
-                                    <img src={EventTwo} />
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-middle'>
-                                    <div className='Past-Events-middle-middle-frame-middle-cont'>
-                                        <h4>What’s the whole fuss about profile building?</h4>
-                                        <p><span>Speaker :</span> Name of the speaker</p>
-                                    </div>
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-right'>
-                                    <img src={Play} />
-                                </div>
-                            </div>
-                        </Link>
+                            </a>
+                            </Fancybox>
                     </div>
-
-                    <div>
-                        <Link to="">
-                            <div className='Past-Events-middle-middle-frame'>
-                                <div className='Past-Events-middle-middle-frame-left'>
-                                    <img src={EventTwo} />
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-middle'>
-                                    <div className='Past-Events-middle-middle-frame-middle-cont'>
-                                        <h4>What’s the whole fuss about profile building?</h4>
-                                        <p><span>Speaker :</span> Name of the speaker</p>
-                                    </div>
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-right'>
-                                    <img src={Play} />
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="">
-                            <div className='Past-Events-middle-middle-frame'>
-                                <div className='Past-Events-middle-middle-frame-left'>
-                                    <img src={EventTwo} />
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-middle'>
-                                    <div className='Past-Events-middle-middle-frame-middle-cont'>
-                                        <h4>What’s the whole fuss about profile building?</h4>
-                                        <p><span>Speaker :</span> Name of the speaker</p>
-                                    </div>
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-right'>
-                                    <img src={Play} />
-                                </div>
-                            </div>
-                        </Link>
-                        <Link to="">
-                            <div className='Past-Events-middle-middle-frame'>
-                                <div className='Past-Events-middle-middle-frame-left'>
-                                    <img src={EventTwo} />
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-middle'>
-                                    <div className='Past-Events-middle-middle-frame-middle-cont'>
-                                        <h4>What’s the whole fuss about profile building?</h4>
-                                        <p><span>Speaker :</span> Name of the speaker</p>
-                                    </div>
-                                </div>
-                                <div className='Past-Events-middle-middle-frame-right'>
-                                    <img src={Play} />
-                                </div>
-                            </div>
-                        </Link>
-                    </div>
-
-                </Carousel>
-
-
-            </div >
-        )
-    }
-}
+                    
+                ))
+            }
+         
+        </div>
+    );
+};
+   
+export default PastEvents;

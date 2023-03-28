@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.804003cd.css",
-    "main.js": "/static/js/main.d1c70f1b.js",
+    "main.css": "/static/css/main.da76081b.css",
+    "main.js": "/static/js/main.aed4884c.js",
     "static/media/atheena-video.mp4": "/static/media/atheena-video.a57b3d509a5381610bd5.mp4",
     "static/media/atheena-web-video-mobile.mp4": "/static/media/atheena-web-video-mobile.56d3eca67cd51f1c0d5d.mp4",
     "static/media/Delphi.mp4": "/static/media/Delphi.239f5b4db5f19d8576e2.mp4",
@@ -15,6 +15,7 @@
     "static/media/homepagebanner-3.png": "/static/media/homepagebanner-3.1b97443ea2d084cad7bf.png",
     "static/media/student-journey.jpg": "/static/media/student-journey.30bdc15d4aeeea47a5c6.jpg",
     "static/media/map-video-new.gif": "/static/media/map-video-new.05d451e0b8449deabfb4.gif",
+    "static/media/mobile-footer-banner-resources.jpg": "/static/media/mobile-footer-banner-resources.b7242b2ed76ef0df621a.jpg",
     "static/media/homepagebanner-4.png": "/static/media/homepagebanner-4.6918512c5a1a5a17eb07.png",
     "static/media/Mobile-footer-in-the-news.jpg": "/static/media/Mobile-footer-in-the-news.84a2ad19bdc2c9a37d17.jpg",
     "static/media/Mobile-footer-why-us.jpg": "/static/media/Mobile-footer-why-us.43da5b6669d7eb31e276.jpg",
@@ -79,6 +80,7 @@
     "static/media/mobile-our-story.jpg": "/static/media/mobile-our-story.3d38801713aeb0d66833.jpg",
     "static/media/In-the-news.jpg": "/static/media/In-the-news.af4d3ec4312f3d0168e5.jpg",
     "static/media/homepagebanner-2-1.png": "/static/media/homepagebanner-2-1.a17efccdab7da16cc297.png",
+    "static/media/Mobile-Resorces.jpg": "/static/media/Mobile-Resorces.dfcc4038822c1c1615f0.jpg",
     "static/media/Mobile-Calendar.jpg": "/static/media/Mobile-Calendar.71758f216b30fa5a251a.jpg",
     "static/media/mobile-12th.jpg": "/static/media/mobile-12th.8c773181e0e165db0995.jpg",
     "static/media/mobile-blog.jpg": "/static/media/mobile-blog.cd7f512416d4aa6ab018.jpg",
@@ -86,6 +88,7 @@
     "static/media/mobile-profile-development.jpg": "/static/media/mobile-profile-development.b35a3367d2d6e0296b47.jpg",
     "static/media/mobile-9th.jpg": "/static/media/mobile-9th.1ae584a385a5c5a1c5ba.jpg",
     "static/media/mobile-why-us.jpg": "/static/media/mobile-why-us.7bdf5cf4e679288f6209.jpg",
+    "static/media/resources.jpg": "/static/media/resources.ac3b9238351e28e01851.jpg",
     "static/media/mobile-about-athena.jpg": "/static/media/mobile-about-athena.ad6d1b90352c0bf4d469.jpg",
     "static/media/mobile-student-success.jpg": "/static/media/mobile-student-success.97ea7a3d5eec25c9d35d.jpg",
     "static/media/9th.jpg": "/static/media/9th.59180d23eee14979ca56.jpg",
@@ -128,6 +131,7 @@
     "static/media/13.png": "/static/media/13.e9d91da4f6139b79f97e.png",
     "static/media/Choose-5.jpg": "/static/media/Choose-5.48383c0db961489df69f.jpg",
     "static/media/Personalization-menu.png": "/static/media/Personalization-menu.3cde4321a64a73268be9.png",
+    "static/media/students-banner-199.jpg": "/static/media/students-banner-199.f1a9881dd465e8abcd9a.jpg",
     "static/media/do-2.png": "/static/media/do-2.1f3e3f83ffe1996372d3.png",
     "static/media/do-3.png": "/static/media/do-3.cabf68b01066ce6f7519.png",
     "static/media/17.png": "/static/media/17.fd426a156df12e5955b4.png",
@@ -146,7 +150,6 @@
     "static/media/LeagueSpartan-Bold.ttf": "/static/media/LeagueSpartan-Bold.287f5d6604adc2276da9.ttf",
     "static/media/LeagueSpartan-Light.ttf": "/static/media/LeagueSpartan-Light.7e2e1fc3c62101bbc5d4.ttf",
     "static/media/LeagueSpartan-Regular.ttf": "/static/media/LeagueSpartan-Regular.a3c27c406358bd7b1b3a.ttf",
-    "static/media/students-banner-16.jpg": "/static/media/students-banner-16.9132f2f594f8805b9010.jpg",
     "static/media/Choose-2.jpg": "/static/media/Choose-2.8c43638c59e60c28c338.jpg",
     "static/media/our-story-12.jpg": "/static/media/our-story-12.7e2f962dc1f6ae8711dd.jpg",
     "static/media/our-story-11.jpg": "/static/media/our-story-11.0a4510aa5f7e7b5ee52c.jpg",
@@ -395,11 +398,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.804003cd.css.map": "/static/css/main.804003cd.css.map",
-    "main.d1c70f1b.js.map": "/static/js/main.d1c70f1b.js.map"
+    "main.da76081b.css.map": "/static/css/main.da76081b.css.map",
+    "main.aed4884c.js.map": "/static/js/main.aed4884c.js.map"
   },
   "entrypoints": [
-    "static/css/main.804003cd.css",
-    "static/js/main.d1c70f1b.js"
+    "static/css/main.da76081b.css",
+    "static/js/main.aed4884c.js"
   ]
 }

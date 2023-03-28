@@ -1425,6 +1425,9 @@
     .dropdown.mobilemenu-new .accordion__item:nth-child(7) .accordion__button::after {
         content: inherit;
     }
+    .dropdown.mobilemenu-new .accordion__item:nth-child(8) .accordion__button::after {
+        content: inherit;
+    }
 
     .dropdown.mobilemenu-new .Menu-underLink li a {
         color: #fff !important;
@@ -2492,6 +2495,35 @@ margin-bottom: 20px;
 .admissions-page.career-page-main .footer-top-map-img-button-link{
     margin-top: 40px;
 } 
+.Book-now-resources-page-Past-Events.UpcomingEvents {
+    width: 90%;
+}
+.Past-Events-middle-middle-frame{
+    width: 95%;
+    flex-wrap: wrap;
+}
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-left {
+    width: 100%;
+}
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-middle {
+    width: 100%;
+}
+.Past-Events-middle-middle-frame .Past-Events-middle-middle-frame-right {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Book-now-resources-page-Past-Events .Past-Events-middle-middle-frame-middle-cont {
+    padding-left: 0px;
+    width: 90%;
+    margin: 2% auto;
+} 
+.upcoming-Events-mian-middle-frame{
+    width: 95%;
+}
+.Book-now-resources-page-Past-Events.UpcomingEvents .react-multi-carousel-list{
+    padding-top: 0px;
+}
 }
 
 @media all and (min-width:1600px) and (max-width:2400px) {

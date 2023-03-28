@@ -59,7 +59,7 @@ class Navbar extends React.Component {
                         </a>
                       </li>
                       <li>
-                        <Link to="#">
+                        <Link to="/events-webinars">
                           Events & Webinars
                         </Link>
                       </li>

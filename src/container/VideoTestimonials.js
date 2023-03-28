@@ -49,7 +49,7 @@ export default class VideoTestimonials extends Component {
                         <div>
                             <Fancybox options={{ dragToClose: false }}>
                                 <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=FiVcXifRvsg">
-                                    <div className='Video-Testimonials-page2'>
+                                     <div className='Video-Testimonials-page2'>
                                         <img className='top' src={video1} alt="" />
                                         <h4>Shalini Gupta</h4>
                                         <p>Mother of Aranav Pandit, Athena '22</p>

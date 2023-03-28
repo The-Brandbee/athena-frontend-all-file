@@ -78,7 +78,7 @@ export default class App extends Component {
           <Route path="/blog-detail" element={<BlogDetail />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/resources" element={<Resources />} />
+          <Route path="/events-webinars" element={<Resources />} />
           <Route path="/career" element={<Career />} />
         </Routes>
         <Footer />
