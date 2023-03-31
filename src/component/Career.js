@@ -25,6 +25,7 @@ import CULTURE3 from '../img/CULTURE-3.jpg';
 import heart1 from '../img/heart-1.jpg';
 import heart2 from '../img/heart-2.jpg';
 import heart3 from '../img/heart-3.jpg';
+import { Helmet } from "react-helmet";
 
 
 class Career extends React.Component {
@@ -34,6 +35,9 @@ class Career extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page our-team-page admissions-page career-page-main">
+                  <Helmet>
+					<title>  Career  </title>   
+				</Helmet>  
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

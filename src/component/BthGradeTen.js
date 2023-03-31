@@ -23,6 +23,9 @@ import {
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
 import MobileTop from '../img/mobilebanner/mobile-10th.jpg';
+import { Helmet } from "react-helmet";
+
+
 class BthGradeTen extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -30,6 +33,9 @@ class BthGradeTen extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page grade-page-add">
+                <Helmet>
+					<title>  program for grade 10  </title> 
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

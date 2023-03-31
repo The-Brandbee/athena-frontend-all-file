@@ -94,6 +94,7 @@ import {
 
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
+import { Helmet } from "react-helmet";
 
 class AdmissionsTopColleges extends React.Component {
     componentDidMount() {
@@ -102,6 +103,9 @@ class AdmissionsTopColleges extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page our-team-page admissions-page admissions-us admissions-top-colleges">
+                 <Helmet>
+					<title>  top colleges for popular majors  </title>   
+				</Helmet>   
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

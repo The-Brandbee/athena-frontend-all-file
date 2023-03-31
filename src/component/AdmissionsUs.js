@@ -30,6 +30,7 @@ import {
 
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
+import { Helmet } from "react-helmet";
 
 class AdmissionsUs extends React.Component {
     componentDidMount() {
@@ -38,6 +39,9 @@ class AdmissionsUs extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page our-team-page admissions-page admissions-us">
+                 <Helmet>
+					<title>  admission process to us  </title>   
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

@@ -11,6 +11,7 @@ import Tw from '../img/tw2.png';
 import Youtube from '../img/youtube2.png';
 import MobileTop from '../img/mobilebanner/mobile-contact-us.jpg';
 import HubspotContactForm from "./HubspotContactForm";
+import { Helmet } from "react-helmet"; 
 
 
 class Contact extends React.Component {
@@ -22,6 +23,9 @@ class Contact extends React.Component {
 
         return (
             <div className="pmp-profile-page our-team-page admissions-page admissions-us why-us">
+                 <Helmet>
+					<title>  Contact Us  </title> 
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

@@ -42,6 +42,7 @@ import VideoTestimonials from "../container/VideoTestimonials.js";
 
 import MobileTop from '../img/mobilebanner/mobile-testimonials.jpg';
 import MobileFooter from '../img/mobilebanner/Mobile-footer-testimonials.jpg';
+import { Helmet } from "react-helmet";
 
 class Testimonials extends React.Component {
 
@@ -52,6 +53,9 @@ class Testimonials extends React.Component {
 
         return (
             <div className="pmp-profile-page our-team-page admissions-page admissions-us why-us">
+                 <Helmet>
+					<title>  Testimonials </title>        
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

@@ -41,9 +41,16 @@ import Testimonials from "./component/Testimonials";
 import Contact from "./component/Contact";
 import Resources from "./component/Resources";
 import Career from "./component/Career";
+import ReactGA from "react-ga4";
+
+
 
 export default class App extends Component {
   render() {
+    const TRACKING_ID = 'G-EY1S647KBZ';
+    ReactGA.initialize(TRACKING_ID);
+    ReactGA.send({ hitType: "pageview", page: "/" });  
+
     return (
 
       <div>

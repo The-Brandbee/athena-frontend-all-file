@@ -10,7 +10,7 @@ import MobileTop from '../img/mobilebanner/mobile-blog.jpg';
 import BlogPost from "./BlogPost";
 import Pagination from '../component/Pagination';
 import RecentPosts from "./RecentPosts";
-
+import { Helmet } from "react-helmet";
 
 class BlogMain extends React.Component {
     componentDidMount() {
@@ -20,6 +20,9 @@ class BlogMain extends React.Component {
 
         return (
             <div className="pmp-profile-page">
+                 <Helmet>
+					<title>  Blog Main  </title>   
+				</Helmet> 
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

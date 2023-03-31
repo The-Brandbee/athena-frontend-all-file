@@ -87,6 +87,8 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 import MobileTop from '../img/mobilebanner/mobile-our-team.jpg';
 import MobileFooter from '../img/mobilebanner/Mobile-footer-our-team.jpg';
+import { Helmet } from "react-helmet"; 
+
 class OurTeam extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -94,6 +96,9 @@ class OurTeam extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page our-team-page">
+                <Helmet>
+					<title>  Our Team  </title>  
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

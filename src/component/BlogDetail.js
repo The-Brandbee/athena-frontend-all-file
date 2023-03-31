@@ -7,6 +7,7 @@ import ArrowOne from "../img/arrow-1.png";
 import Arrowtwo from "../img/arrow-2.png";
 import Search from "../img/search.png";
 import RecentPosts from "./RecentPosts";
+import { Helmet } from "react-helmet";
 
 class BlogDetail extends React.Component {
     componentDidMount() {
@@ -48,6 +49,9 @@ class BlogDetail extends React.Component {
             );
         return (
             <div className="pmp-profile-page">
+                 <Helmet>
+					<title> Blog Detail  </title>   
+				</Helmet> 
                 <section className="presscoverage-main-frame">
                     <div className="container">
                         <div className="row">

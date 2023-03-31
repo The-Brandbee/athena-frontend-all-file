@@ -37,7 +37,7 @@ import {
 // Demo styles, see 'Styles' section below for some notes on use.
 import 'react-accessible-accordion/dist/fancy-example.css';
 import GradeOne from '../img/grade-1.jpg';
-
+import { Helmet } from "react-helmet"; 
 
 class OurStory extends React.Component {
     componentDidMount() {
@@ -46,6 +46,9 @@ class OurStory extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page our-team-page admissions-page admissions-us why-us our-story-new-add">
+                <Helmet>
+					<title>  Our Story  </title> 
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

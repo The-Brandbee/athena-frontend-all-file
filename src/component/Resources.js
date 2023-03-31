@@ -9,7 +9,7 @@ import PastEvents from "../container/PastEvents";
 import UpcomingEvents from "../container/UpcomingEvents.js";
 import MobileTop from '../img/mobilebanner/Mobile-Resorces.jpg';
 import MobileFooter from '../img/mobilebanner/mobile-footer-banner-resources.jpg';
-
+import { Helmet } from "react-helmet";
 
 class Resources extends React.Component {
     componentDidMount() {
@@ -19,6 +19,9 @@ class Resources extends React.Component {
 
         return (
             <div className="pmp-profile-page our-team-page admissions-page admissions-us why-us">
+                   <Helmet>
+					<title>  events webinars  </title>   
+				</Helmet>  
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

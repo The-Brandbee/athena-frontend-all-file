@@ -41,6 +41,7 @@ import BrandLogo from '../img/Brand-logo-1.png';
 import AdmissionsNew from '../img/admissions5.png';
 import BannerTwo from '../img/banner/canada.jpg';
 import MobileTop from '../img/mobilebanner/Mobile-Canada.jpg';
+import { Helmet } from "react-helmet";
 
 
 class AdmissionsCanada extends React.Component {
@@ -50,6 +51,9 @@ class AdmissionsCanada extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page our-team-page admissions-page">
+                 <Helmet>
+					<title>  admission process to canada  </title>   
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

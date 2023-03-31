@@ -29,6 +29,9 @@ import MobileFooter from '../img/mobilebanner/Mobile-footer-in-the-news.jpg';
 
 import Marquee from "react-fast-marquee";
 import NewPost from "./NewPost";
+import { Helmet } from "react-helmet";
+
+
 class PressCoverage extends React.Component {
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -36,6 +39,9 @@ class PressCoverage extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page in-the-news-add-page">
+                  <Helmet>
+					<title> in the news </title>   
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

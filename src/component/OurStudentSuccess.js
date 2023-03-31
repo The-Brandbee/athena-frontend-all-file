@@ -16,6 +16,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 
 import MobileTop from '../img/mobilebanner/mobile-student-success.jpg';
 import MobileFooter from '../img/mobilebanner/Mobile-footer-student-success.jpg';
+import { Helmet } from "react-helmet";  
 
 class OurStudentSuccess extends React.Component {
     componentDidMount() {
@@ -24,6 +25,9 @@ class OurStudentSuccess extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page">
+                 <Helmet>
+					<title>  Our Student Success  </title> 
+				</Helmet>
                 <div className="banner-section OurStudentSuccess-bannernewpage desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

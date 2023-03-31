@@ -11,6 +11,7 @@ import Students from '../img/footer-vector/Calendar.jpg';
 import BannerTwo from '../img/banner/calendar.jpg';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import MobileTop from '../img/mobilebanner/Mobile-Calendar.jpg';
+import { Helmet } from "react-helmet";
 
 class AdmissionsCalendar extends React.Component {
     componentDidMount() {
@@ -19,6 +20,9 @@ class AdmissionsCalendar extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page">
+                 <Helmet>
+					<title>  admission calendar  </title>   
+				</Helmet>  
                 <div className="banner-section OurStudentSuccess-bannernewpage desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>

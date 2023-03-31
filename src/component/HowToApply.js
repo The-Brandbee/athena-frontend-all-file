@@ -56,7 +56,7 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 
 import MobileTop from '../img/mobilebanner/mobile-how-to-apply.jpg';
 import MobileFooter from '../img/mobilebanner/Mobile-footer-how-to-apply.jpg';
-
+import { Helmet } from "react-helmet";
 
 class HowToApply extends React.Component {
     componentDidMount() {
@@ -65,6 +65,9 @@ class HowToApply extends React.Component {
     render() {
         return (
             <div className="pmp-profile-page how-to-apply-pageadd">
+                <Helmet>    
+					<title>  How To Apply  </title> 
+				</Helmet>
                 <div className="banner-section desktopD">
                     <div className='first-slide second'>
                         <div className='banner-image'>
